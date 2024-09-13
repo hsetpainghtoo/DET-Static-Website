@@ -16,21 +16,21 @@ const OtherService = () => {
         <div className="flex gap-6 text-center justify-around pb-9">
           <div>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/6062/6062646.png"
+              src="src\assets\WebDevelopment.png"
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Web Development</span>
           </div>
           <div>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/2645/2645725.png"
+              src="src\assets\AppDevelopment.png"
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">App Development</span>
           </div>
           <div>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/8296/8296971.png"
+              src="src\assets\SoftwareDevelopment.png"
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Software Development</span>
@@ -39,14 +39,14 @@ const OtherService = () => {
         <div className="flex gap-4 text-center justify-evenly">
           <div>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/5688/5688504.png"
+              src="src\assets\POSSystemDevelopment.png"
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">POS System Development</span>
           </div>
           <div>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/11748/11748133.png"
+              src="src\assets\ServerMaintenance.png"
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Server Maintenance Services</span>

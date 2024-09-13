@@ -10,7 +10,7 @@ const IntroItems = () => {
         className="w-[30%] max-lg:hidden pt-14 z-10"
       />
       <img
-        src="https://usercontent.one/wp/www.norderbergs.com/wp-content/uploads/2020/09/background-shapes-png-1-Images-PNG-Transparent.png"
+        src="src\assets\background-shape.png"
         className=" absolute max-lg:hidden left-8 max-xl:-left-1 animate-[linear_bounceY_infinite_10s] w-[600px] max-xl:w-[500px]  "
       />
 

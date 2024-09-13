@@ -21,7 +21,7 @@ const FarmProduct = () => {
           <div className="relative flex justify-center items-center gap-6 w-[95%] mx-auto">
             <img
               className="w-[52%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="https://i.pinimg.com/564x/ee/1f/cb/ee1fcb4cde6388d5b4c959931cf15aa3.jpg"
+              src="src\assets\SmartFarm.jpg"
             />
             <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden"/>
           </div>

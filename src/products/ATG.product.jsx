@@ -21,7 +21,7 @@ const ATGProduct = () => {
           <div className="relative flex justify-center items-center gap-6">
             <img
               className="w-[52%] max-sm:w-[75%] rounded-xl shadow-xl hover:-translate-y-2 hover:scale-105 duration-200"
-              src="https://i.pinimg.com/564x/ac/cd/b5/accdb5d182e5670e287e0cdbd2426847.jpg"
+              src="src\assets\ATG.jpg"
             />
             <IoIosCloseCircleOutline
               className="absolute animate-pulse top-0 right-0 text-white hover:scale-110 active:scale-95 duration-200 size-10"

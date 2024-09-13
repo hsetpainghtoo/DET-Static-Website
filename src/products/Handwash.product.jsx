@@ -21,7 +21,7 @@ const HandwashProduct = () => {
           <div className="relative flex justify-evenly items-center gap-6 w-[95%] mx-auto">
             <img
               className="w-[50%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="https://www.hopkinsmedicine.org/-/media/patient-safety/images/hands2.jpg"
+              src="src\assets\hands.jpg"
             />
 
             <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden" />

@@ -25,7 +25,7 @@ const LaserProduct = () => {
           <div className="my-2 flex justify-evenly items-center">
             <img
               className="w-[43%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="https://i.pinimg.com/564x/be/1e/96/be1e96b3ce81ff907d5bd96b1087a764.jpg"
+              src="src\assets\laser.jpg"
             />
             <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-[35%] max-sm:hidden" />
           </div>

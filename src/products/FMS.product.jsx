@@ -29,7 +29,7 @@ const FMSProduct = () => {
           <div className="mb-5 flex justify-evenly items-center">
             <img
               className="w-[40%] max-sm:w-[80%] hover:scale-105 duration-200 rounded-xl shadow-xl "
-              src="https://i.pinimg.com/564x/e0/8b/88/e08b88403de92610f30f491261b71025.jpg"
+              src="src\assets\FMS.jpg"
             />
 
             <img

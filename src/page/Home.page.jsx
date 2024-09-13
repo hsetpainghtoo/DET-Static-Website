@@ -20,12 +20,7 @@ const HomePage = () => {
   return (
     <>
       <div className="bg-[#E0F7FA] min-h-[3000px]">
-        {/* <div className="fixed w-full h-auto -z-30">
-          <img
-            className=""
-            src="https://wallpapers.com/images/hd/information-technology-1440-x-900-background-p1c1dbydenflfzeo.jpg"
-          />
-        </div> */}
+        
 
         <header className="sticky top-0 z-20">
           <Header />
@@ -33,13 +28,7 @@ const HomePage = () => {
 
         {/* Intro Section */}
         <section className=" ">
-          <div className=" relative flex justify-around items-center">
-            {/* <img
-              className="w-full top-0 absolute"
-              src="src\assets\earth_surface.png"
-              alt=""
-            /> */}
-          </div>
+          
           <div className=" flex justify-evenly items-center my-20">
             <div className="flex-col z-10 w-[40%] max-lg:w-[80%]  ml-36 max-lg:ml-0">
               <Intro />

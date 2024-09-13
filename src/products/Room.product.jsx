@@ -22,6 +22,7 @@ const RoomProduct = () => {
             <img
               className="w-[50%] max-sm:w-[80%] rounded-xl shadow-xl hover:-translate-y-2 hover:scale-105 duration-200"
               src="https://cdn.news2day.co.kr/data2/content/image/2024/06/27/.cache/512/20240627500198.png"
+              // src="src\assets\smarthome.jpg"
             />
             <IoIosCloseCircleOutline
               className="absolute animate-pulse top-0 right-0 text-white hover:scale-110 active:scale-95 duration-200 size-10"
