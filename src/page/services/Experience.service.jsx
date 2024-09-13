@@ -9,7 +9,7 @@ const ExperienceService = () => {
       <div className="flex px-11">
         <HR.Trimmed className="bg-[#003366] w-[20%] max-sm:w-[10%] max-sm:mt-7 max-md:mt-12 mt-2" />
         <img
-          src="../src/assets/detlogo.png"
+          src="../../public/static/assets/detlogo.png"
           className="w-[30%] max-lg:w-[50%] max-md:w-[60%] max-sm:w-[70%] "
         />
         <HR.Trimmed className="bg-[#003366] w-[20%] max-sm:w-[10%] max-sm:mt-7 max-md:mt-12 mt-2" />

@@ -18,7 +18,7 @@ const BenefitsService = () => {
       </div>
       <div className="flex max-md:flex-col gap-4">
         <img
-          src="../src/assets/Benefits.svg"
+          src="../../public/static/assets/Benefits.svg"
           className="w-[50%] max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
         <div className="text-xl max-sm:text-[15px] w-[50%] max-md:w-[95%] mx-auto xl:text-xl">

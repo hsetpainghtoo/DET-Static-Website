@@ -25,9 +25,9 @@ const LaserProduct = () => {
           <div className="my-2 flex justify-evenly items-center">
             <img
               className="w-[43%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="../src/assets/laser.jpg"
+              src="../../public/static/assets/laser.jpg"
             />
-            <img src="../src/assets/detlogo-ZWBJPo-I.png" className="w-[35%] max-sm:hidden" />
+            <img src="../../public/static/assets/detlogo-ZWBJPo-I.png" className="w-[35%] max-sm:hidden" />
           </div>
             <div className="flex gap-3 justify-center items-center w-[90%] mx-auto">
               <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />

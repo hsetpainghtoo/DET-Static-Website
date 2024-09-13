@@ -6,12 +6,12 @@ const JourneyAbout = () => {
   return (
     <div className="flex max-md:flex-col gap-10  justify-center items-center">
       <img
-        src="../src/assets/About us.svg"
+        src="../../public/static/assets/About us.svg"
         alt=""
         className="w-[30%] max-md:hidden pt-14 z-10"
       />
       <img
-        src="../src/assets/background-shape.png"
+        src="../../public/static/assets/background-shape.png"
         className=" absolute max-md:hidden -left-8 max-lg:-left-6 animate-[linear_bounceY_infinite_10s] w-[600px] max-xl:w-[500px] max-lg:w-[360px] "
       />
 
@@ -27,7 +27,7 @@ const JourneyAbout = () => {
       </div>
 
       <img
-        src="../src/assets/About us.svg"
+        src="../../public/static/assets/About us.svg"
         alt=""
         className=" md:hidden w-[60%] max-sm:w-[80%] mx-auto max-md:pt-20 max-sm:pt-16 max-[490px]:pt-36 max-[460px]:mt-20 max-[370px]:mt-36 z-10 "
       />
