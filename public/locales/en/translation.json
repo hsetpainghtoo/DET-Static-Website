@@ -1,0 +1,225 @@
+{
+  "HOME": {
+    "TITLE_1": "Services That We Offer",
+    "TITLE_2": "Skills That We Possess",
+    "DESCRIPTION": {
+      "INTRO": "At the forefront of innovation, we specialize in transforming your boldest ideas into digital realities, seamlessly blending cutting-edge technology with your unique vision to create solutions that not only meet today's challenges but also anticipate tomorrow's opportunities.",
+
+      "SKILLS": "Never doubt that a small group of thoughtful and committed people, driven by a shared purpose and unwavering dedication, can not only spark meaningful change but also transform the world in ways once thought impossible."
+    }
+  },
+  "SKILLS": {
+    "INNO": "Innovation",
+    "DESIGN": "Designing",
+    "DEV": "Developing",
+    "TEST": "Testing"
+  },
+  "SERVICE": {
+    "Card": {
+      "title_1": "Fuel Station Service",
+      "title_2": "IOT Service",
+      "title_3": "Smart Home Service",
+      "title_4": "POS System"
+    },
+    "DESCRIPTION": {
+      "desc_1": "We ensure top convenience and satisfaction with reliable pumps and a smooth experience.",
+      "desc_2": "We offer IoT solutions for seamless device-to-cloud communication and real-time data exchange.",
+      "desc_3": "Our Smart Home Devices offer remote control of lighting, temperature, and security.",
+      "desc_4": "We offer custom POS systems with installation, setup, and ongoing support."
+    },
+    "DESC": "Unlock the future with Digital Engineering Tech Ltd: where smart technology meets seamless connectivity. We power your world with innovative IoT solutions that enhance efficiency, drive innovation, and keep you connected like never before."
+  },
+  "SERVICE_PAGE":{
+    "INTRO":{
+      "title":"Revolutionize Your Operations with Our IoT Solutions",
+      "desc":"Unlock the future with Digital Engineering Tech Ltd: where smart technology meets seamless connectivity. We power your world with innovative IoT solutions that enhance efficiency, drive innovation, and keep you connected like never before."
+    },
+    "CONSULTING":{
+      "title_1":"Consulting",
+      "desc_1":"Our IoT consulting services provide companies with the opportunity to leverage cutting-edge technology and unlock unique functionalities to dive their business growth. By collaborating with us, organizations can expect tailored solutions and expert guidance on the most effective implementation methods for their specific needs.",
+      "title_2":"Launching IoT Solution",
+      "desc_2":"We will support the primary requirements of organizations and companies that partner with us, and simplify their work process for greater ease and comfort. This will be accomplished through the development of essential hardware and software solutions, as well as the implementation of a cloud-based system for device and technology mapping."
+    },
+    "CONDUCTING":{
+      "title_1":"Conducting Development",
+      "desc_1":"Our collaborative partners can expect us to develop user-friendly software and applications that seamlessly integrate with IoT devices, cloud platforms, and mobile devices.",
+      "title_2":"Providing Security Services",
+      "desc_2":"We collaborate with various organizations, and we handle sensitive information from these companies. To ensure the safety and confidentiality of their data, we take measures to protect our devices from hacking attempts and prevent theft. We use advanced IoT technology to provide reliable security services.",
+      "title_3":"Collecting Data",
+      "desc_3":"We will provide assistance and backing for the fluctuating economic data as well as the essential workplace information required by the organizations and companies that partner with us."
+    },
+    "STRATEGY":{
+      "title_1":"Enhancing The Corporate Image",
+      "desc_1":"We partner with organizations who share our commitment to innovation and development, ensuring that our workplace remains at the forefront of emerging trends and technical skills. To meet our high standards of quality and position ourselves as a leading workplace, we are investing in IoT technology and working tirelessly to enhance the company's image.",
+      "title_2":"Developing Long-Term Strategy",
+      "desc_2_1":"Our partnering organizations will benefit from the integration of IoT technology in their long-term plans, enabling their workplaces to achieve higher technological standards at reduced costs, thus increasing the efficiency and reliability of their business operations.",
+      "desc_2_2":"To sum up, our company caters specifically to entrepreneurs by carefully examining the requirements of each organization and offering our services that are truly essential, while engaging in through discussions and making appropriate recommendations.",
+      "desc_2_3":"Please note that we do not offer IoT security services or services provided by third parties for equipment, projects, or services obtained from other companies.",
+      "desc_2_4":"However, we do provide full services for our own products and projects, exclusively for equipment."
+    },
+    "OTHER_SERVICES":"Other IT Services",
+    "BENEFITS":{
+      "title":"Benefits Of Using IoT Devices & Services For Your Business",
+      "subtitle":"A Message To Our Clients",
+      "desc_1":"We would like to take this opportunity to share with you some of the benefits of incorporation IoT devices and services into your business operations. IoT devices and services with their advanced technology and connectivity, have the potential to revolutionize the way businesses operate. By utilizing IoT devices and services you can:",
+      "list_1":"Improve efficiency: IoT devices can automate several tasks, reducing the time and effort required to perform them manually. This results in increased productivity and efficiency in your business operations.",
+      "list_2":"Enhance safety: With the ability to collect real-time data, IoT devices can help you identify potential hazards and take timely action to prevent accidents and injuries.",
+      "list_3":"Reduce costs: IoT devices can help you save on energy consumption, reduce maintenance costs, and minimize downtime due to equipment failure, leading to significant cost savings.",
+      "list_4":"Provide better customer service: By collecting and analyzing data on customer preferences and behavior, IoT devices can help you tailor your services to meet their needs and expectations.",
+      "desc_2":"By using our services, organizations and companies not only differentiate themselves from their competitors, but also gain access to a wide range of innovative solutions and modern advancements, enabling them to stand out proudly."
+    },
+    "EXPERIENCE":{
+      "TITLE":"Experience the Power of Technology: Invest in Our Company",
+      "DESC":"Our esteemed company extends an invitation to all those individuals who are willing to make the right choices and stand tall with pride. It is indeed a thrilling experience to witness the rapid growth of trends and to keep up with them. Rest assured, our approach is geared towards long-term profitability, and you can expect results that surpass your expectations. Join us now and be a part of this exciting journey towards success!",
+
+      "title_1":"As technology becomes increasingly competitive, it is important to prioritize the following factors for the development of your business:",
+      "list_1_1":"Achieving long-term profitability",
+      "list_1_2":"Establishing potential as a successful business, and",
+      "list_1_3":"Ensuring reliability.",
+
+      "title_2":"By collaborating with our company, you can benefit from the following:",
+      "list_2_1":"You will have the opportunity to participate in a business that is committed to continuous improvement and long-term development.",
+      "list_2_2":"You can expand your market and grow your business further.",
+      "list_2_3":"You can access and work with a group of talented young professionals who prioritize quality and technology.",
+      "list_2_4":"You can establish a good reputation in the industry and maintain it.",
+      "list_2_5":"You can stay up-to-date with the latest trends in IoT services and become a leader in the field.",
+      "desc_2_1":"Additionally, you can enjoy invaluable benefits that will elevate your standard of living and allow you to experience the true essence of technology.",
+      "desc_2_2":"We believe that our company is the most appropriate and accurate choice for you. With a forward-looking vision, we are confident that investing with us will be beneficial and lead to wise decision-making as an investor with an eye towards the future.",
+      "desc_2_3":"We cordially invite you to join 'Digital Engineering Tech Ltd' and take advantage of the opportunities available before they pass you by. Don't hesitate to invest now and secure your financial future.",
+
+      "title_3":"Raise your improvements with our Services",
+      "desc_3":"In an era where technological systems are advancing rapidly and the influence of technology is growing exponentially, it is crucial to create pathways that lead to a higher quality of life in the long term. This entails making the right decisions and utilizing technology to achieve the most valuable gains more easily and quickly than ever before.",
+
+      "title_4":"Just as “Time and Tide wait for no man”, emerging trends do not wait for us.",
+      "desc_4_1":"If a company desires to be a leader in the business world and takes pride in its accomplishments and profits at the top, our company's products and services are the most advanced, modern, and desirable choice.",
+      "desc_4_2":"By incorporating our IoT products and services into your business operations, you can benefit from the following advantages:",
+      "list_4_1":"Save time and effort by streamlining processes and eliminating manual tasks.",
+      "list_4_2":"Achieve rapid business growth by leveraging cutting-edge technology.",
+      "list_4_3":"Foster a secure and safe work environment for employees and customers alike.",
+      "list_4_4":"Embrace modern technology to enhance your lifestyle and create a modern and progressive workplace.",
+      "list_4_5":"Outperform your competitors with more efficient and effective methods.",
+      "list_4_6":"Easily identify and address workplace needs and weaknesses, improving your company's reputation in no time.",
+      "list_4_7":"Proudly showcase your technologically advanced workplace and stay ahead of industry standards.",
+      "desc_4_3":"By adopting our IoT solutions, you can feel proud of your business's achievements and enjoy the benefits outlined above.If the person who yesterday looked at other people's business with a surprised expression were to stand today where they are being observed, do you have any thoughts on how they might feel?",
+      "desc_4_4":"Additionally, I would like to recommend the best products and services from our company to enhance your business. You can confidently rely on our services."
+    }
+  },
+
+  "PRODUCT": {
+    "TITLE": "Products that we provide",
+    "DESC": "Our IoT products at Digital Engineering Tech Ltd integrate advanced technology with practical applications, delivering smart, scalable solutions that enhance connectivity, optimize operations, and drive data-driven decisions for your business.",
+
+    "CARD": {      
+      "desc_1": "Real-Time Fuel Station Management System is based on Wireless Network System, connecting with your fuel dispensers and controlling nozzles. Direct views of each nozzle's information; You wil be able to manage information accurately and easily. By using this system, one day at your gas station, a week Ability to easily view monthly oil sales details; According to each type of oil, The ability to search and view details for each type of golf course. You can also check oil balance lists and oil import history by oil type. Oil prices that change daily can easily be changed according to the type of fuel used.",
+      
+      "desc_2": "The Laser Security Alert System is a remarkable security solution that effectively safeguards your business, territory, and industrial zones against intruders. This advanced security system utilizes laser technology to detect any suspicious activity and is primarily deployed in expansive industrial and commercial areas. the system operates by generating a laser beam equipped with high-tech sensors that can sense the slightest movements within the designated perimeter. As soon as an object or an intruder crosses the specified boundary, the laser beam immediately triggers an alarm system, alerts the authorities of the security breach, and sends out an SMS notification to the users. A prime example of the Laser Security Alert System in action is at the \"Sein Hla Nanda Neutral Compost Fertilizer Company\" located in Inle Lake, Shan State, where the technology is currently in use.",
+      
+      "desc_3": "The Smart Farm System is a cutting-edge agricultural technology that is specifically designed for cultivated plantation areas and agricultural lands. This system is equipped with advanced features, including real-time monitoring of soil moisture, temperature, natural oil nutrient requirements, and room ventilation rate. Additionally, the system's equipment automatically adjusts lighting rates, eliminating the need for manual intervention. By utilizing this state-of-the-art system, farmers can significantly increase their crop yield while also reducing their overall costs. The Smart Farm System also facilitates significant reductions in water consumption, fertilizer and pesticide use, and waste generation.",
+      
+      "desc_4": "The Automatic Hand Wash System is an innovative technology designed to promote hygiene by providing a touchiness hand-washing experience using soap and hand sanitizer. Its sensor system ensures no contact with water, making it ideal for use in various settings, including hospitals and schools. Additionally, the system is produced to donate to government department buildings and other locations in need, highlighting its commitment to improve public health.",
+      
+      "desc_5": " Smart Room Control represents cutting-edge technology that offers users unparalleled luxury and convenience. With just one controller, users can manage all the equipment in their entire room, including their television, air conditioner, and sockets, etc.",
+      
+      "desc_6": "ATG is a system that automatically measures the amount of oil in the oil tank. The amount of oil in the oil thank, Water content, oil tank temperature and oil input and output lists by month; can be viewed by year; ATG System can be viewed in detail from the Internet at any time. Acceptance of oil over time, oil balance. It is an ATG System that can measure oil dispersion and oil leakage in real time.",
+      
+      "desc_7": "The Smart Water Controller is a cutting-edge device that utilizes state-of-the-art sensors to monitor and manage water pumps in residential or commercial settings, regulating water consumption via a cloud-based application. Its advanced capabilities enable it to control two (2) water pumps and provide additional electrical protection features, ensuring reliability and safety. The implementation of this advanced technology system will play a significant role in conserving water resources and reducing waste."
+    }
+  },
+  "PARTNERS":{
+    "CLIENTS":"Our Clients",
+    "SUPPLIERS":"Our Suppliers & Partners"
+  },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "DESC": "Our company, initially named Digital Engineering Group, was established in December 2019 and later changed and registered to Digital Engineering Tech Ltd in November 2021. We offer a variety of services with a primary focus on IOT Engineering and other IT services. Throughout our journey, our company has achieved several significant milestones.",
+    "PAGE": {
+      "JOURNEY":"About Our Journey History",
+      "MILESTONES":{
+        "title":"SIGNIFICANT MILESTONES",
+        "desc_1": "Throughout our journey, our company has achieved several significant milestones which are...",
+        "desc_2": "We proudly released the \"Laser Light Security Alert System\" with cloud-based alerts.",
+        "desc_3": "We developed and released the \"Automatic Hand Wash System\", which was donated to necessary areas.",
+        "desc_4": "We released the \"Smart Water Controller Project\" for home / apartment and hotel use. This project is designed to provide efficient water management solutions to reduce water wastage and help conserve the environment.",
+        "desc_5": "We released the \"Smart Room Controller Project\" for home / apartment and hotel use. This project offers an intelligent control system that allows users to manage various aspects of their room, including lighting, temperature, and entertainment systems."
+      },
+      "VISION":{
+        "title":"OUR VISION",
+        "desc_1":"To create a future where luxury products are seamlessly integrated into people's lives, providing the most comfortable and innovative solutions for humankind.",
+        "desc_2":"To develop our IoT Engineering Sector and capabilities day by day, with a focus on innovation and excellence.",
+        "desc_3":"To support the development of not only urban and industrial areas but also rural areas."
+      }, 
+      "MISSION":{
+        "title":"OUR MISSION",
+        "desc_1":"To enhance the essence of life and unparalleled comfort by using advanced technology.",
+        "desc_2":"To develop innovative devices that benefit society and the environment by leveraging our expertise, passion, and curiosity.",
+        "desc_3":"To fulfill human resources' standard of living more than expected with high-quality devices by using the latest advanced technology that is easy to use, reliable, high quality, and comfortable."
+      },
+      "PRIORITIES":{
+        "title":"OUR VALUES AND PRIORITIES",
+        "desc_1":"Our value at IoT Engineering is to create reliable and high-quality technologies based on IoT for the organizations and businesses that work with us. It is our priority to best meet their needs with expertise and to provide solutions and services that exceed their expectations.",
+        "desc_2":"Our long-term concern at IoT Engineering is to constantly innovate for social environments, industries, and urban-rural development using modern and progressive methods, embracing new technological changes and trends."
+      }  
+    }
+  },
+  "ITEMS":{
+    "TITLE":"Your Dream Starts With Our IoT Products",
+    "DESC":"Our IoT products at Digital Engineering Tech Ltd integrate advanced technology with practical applications, delivering smart, scalable solutions that enhance connectivity, optimize operations, and drive data-driven decisions for your business.",
+    "PAGE":{
+      "SERVERS":{
+        "title":"POS Servers Matched With Our Wireless Dongle",
+        "desc":"POS servers are part of the Sixth Kendra Fuel Station Management System, developed by skilled engineers from Digital Engineering Tech Ltd in Myanmar. Its primary functions include managing wireless dongles, real-time communication, and control. It automatically calculates data such as fuel tank information and logs records. Additionally, it allows for data exchange via the internet, auto-calculation, and management of the fuel station’s accounts. It also generates reports and statements to facilitate effective accounting and management of the fuel station’s operations."
+      },
+      "DONGLE":{
+        "title":"Wireless Dongle for Real-Time Dispenser Control",
+        "desc_1":"The Wireless Dongle is designed and manufactured by engineers from Digital Engineering Tech Ltd in Myanmar. It serves as a communication controller that connects wirelessly with the POS Server, enabling control over the dispenser, data acquisition, and the adjustment of set prices. It facilitates these tasks through seamless communication and management.",
+        "desc_2":"The Wireless Dongle can be used with fuel dispensers ranging from 1 nozzle to 8 nozzles, including brands like Dong Hwa Prime, Tatsuno, HongYang, Red Star, and others."
+      },
+      "CONTROLLER":{
+        "title":"Innovative Touch Controller for Fuel Station Operations",
+        "desc_1":"The Touch Controller, designed and manufactured by engineers from Digital Engineering Tech Ltd in Myanmar, allows for control of the dispenser using a key card. It enables preset operations and the input of data such as vehicle number, vehicle type, payment type, and member card details, all of which can be managed through a touch screen interface.",
+        "desc_2":"One Touch Controller can manage a single dispenser with up to 8 nozzles, allowing it to acquire and transmit data. It operates as a smart controller, wirelessly connected to the POS Server, handling tasks such as data retrieval and transmission."
+      },
+      "CLOUD":{
+        "title":"Cloud Service for Real-Time Data and Report Management",
+        "desc_1":"The Cloud Service enables users to view records, retrieve data, and manage accounts through a website via the internet. Currently, it focuses on generating reports and ensuring accuracy in real-time systems. The service is designed to provide convenient and user-friendly access, supporting smooth operations.",
+        "desc_2":"Support software updates will provide free, incremental enhancements to the Sixth Kendra FMS at fuel stations, including control over dispenser nozzles, price adjustments, and alert systems for fuel overflows or excessive sales. These updates will be added seamlessly to improve system functionality."
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us",
+    "FORM": {
+      "F": "First Name",
+      "L": "Last Name",
+      "EMAIL": "Enter your email",
+      "TEXT": "Leave a comment..."
+    },
+    "INFO": {
+      "TITLE": "Information",
+      "SUBTITLE": "Contact us and we'll get back to you within 24 hours.",
+      "ADD": "No.15/1921, 12th Street, Paung Laung 2 Wardz, Pyinmana, Naypyitaw",
+      "EMAIL": "digitalengineeringtech.mm@gmail.com",
+      "PH": "+959-988-34-0001"
+    }
+  },
+  "BTN": "LEARN MORE",
+  "A_BTN": "ABOUT US",
+  "LANGUAGE": "မြန်မာ",
+  "N_HOME": "Home",
+  "N_SER": "Service",
+  "N_PRO": "Product",
+  "N_ABOUT": "About",
+  "N_CONTACT": "Contact",
+  "QUOTE": {
+    "TITLE": {
+      "S1": "Everything in one App",
+      "S2": "For Simple, Secure And Smart",
+      "S3": "Use Smart Devices"
+    },
+    "SUB": {
+      "S1": "Control Your Home With DET Products...",
+      "S2": "Use DET Products",
+      "S3": "To Become Smart Life"
+    }
+  }
+}
