@@ -35,7 +35,7 @@ const Intro = () => {
         </span>{" "}
         <br />
       </h1>
-      <p className="my-2 leading-loose font-sans text-[#2F4F4F] text-xl max-lg:text-lg ">
+      <p className="my-2 min-[320px]:leading-loose text-left font-sans text-[#2F4F4F] text-xl max-lg:text-lg ">
         {t('HOME.DESCRIPTION.INTRO')}
       </p>
       <a

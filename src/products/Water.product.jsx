@@ -34,11 +34,11 @@ const WaterProduct = () => {
           </div>
           <div className="pt-5">
             <div className="flex gap-3 justify-center items-center w-[93%] mx-auto">
-              <HR.Trimmed className="bg-white rounded-lg max-[420px]:hidden" />
-              <h1 className="text-[31px] max-[420px]:text-[30px] pb-4 w-[80%] max-[420px]:w-full font-semibold text-white text-center">
+              <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />
+              <h1 className="text-[31px] max-[420px]:text-[30px] pb-4 w-[80%] max-[500px]:w-full font-semibold text-white text-center">
                 Smart Water Controller
               </h1>
-              <HR.Trimmed className="bg-white rounded-lg max-[420px]:hidden" />
+              <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />
             </div>
             <p className="indent-8 leading-loose text-justify text-xl max-sm:text-[15px] text-white w-[93%] mx-auto">
               {t("PRODUCT.CARD.desc_7")}

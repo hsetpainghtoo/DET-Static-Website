@@ -85,32 +85,32 @@ const Contact = () => {
             </Card>
 
             <div className="w-[40%] flex justify-center max-lg:hidden">
-              <dotlottie-player
+              {/* <dotlottie-player
                 src="https://lottie.host/f8225803-4413-489e-97c5-b2cc5e72161f/9OpcaKmkyw.json"
                 background="transparent"
                 speed={1}
                 style={{ width: 300, height: 300 }}
                 loop
                 autoPlay
-              />
+              /> */}
             </div>
           </div>
 
           <div className="flex justify-between items-center">
             <div className="w-[40%] flex justify-center max-lg:hidden">
-              <dotlottie-player
+              {/* <dotlottie-player
                 src="https://lottie.host/ebac8ade-cad2-42eb-a3bb-ffdbf83613f2/6HRNplhlbj.json"
                 background="transparent"
                 speed={1}
                 style={{ width: 300, height: 300 }}
                 loop
                 autoPlay
-              />
+              /> */}
             </div>
 
             <div className="w-[70%] max-lg:w-[95%] max-md:w-full max-lg:mx-auto  text-white bg-[#003366] backdrop-blur-lg shadow-2xl rounded-2xl p-6 border border-white">
               <h2 className="text-3xl font-semibold mb-2">{t('CONTACT.INFO.TITLE')}</h2>
-              <span>{t('CONTACT.INFO.SUBTITLE')}</span>
+              <span className="min-[320px]:leading-loose">{t('CONTACT.INFO.SUBTITLE')}</span>
               <div className="flex-col justify-around">
                 <ol className="mt-8">
                   <li className="flex gap-6">

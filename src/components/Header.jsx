@@ -20,9 +20,19 @@ const Header = () => {
           id="navbar"
           className="text-white flex justify-center items-center gap-9 text-lg font-semibold max-lg:hidden"
         >
-          <li>
-            <Link to="/">{t("N_HOME")}</Link>
-          </li>
+          {location.pathname === "/" ? (
+            <>
+              <li>
+                <a href="#">{t("N_HOME")}</a>
+              </li>
+            </>
+          ) : (
+            <>
+              <li>
+                <Link to="/">{t("N_HOME")}</Link>
+              </li>
+            </>
+          )}
           <li>
             <Link to="/services">{t("N_SER")}</Link>
           </li>

@@ -45,14 +45,14 @@ const HomePage = () => {
               <Intro />
             </div>
             <div className="max-lg:hidden">
-              <dotlottie-player
+              {/* <dotlottie-player
                 src="https://lottie.host/5c746068-8412-458f-8afd-4c4e92984b2c/BJuIDov1Sk.json"
                 background="transparent"
                 speed={1}
                 style={{ width: 550, height: 450 }}
                 loop
                 autoPlay
-              />
+              /> */}
             </div>
           </div>
         </section>
@@ -65,7 +65,7 @@ const HomePage = () => {
             <h1 className="font-bold  text-[45px] max-xl:text-4xl text-[#2F4F4F] font-sans">
               {t("HOME.TITLE_2")}
             </h1>
-            <p className="text-xl leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
               {t("HOME.DESCRIPTION.SKILLS")}
             </p>
           </div>
@@ -96,7 +96,7 @@ const HomePage = () => {
             <h1 className="font-bold text-[#2F4F4F] text-[40px] font-sans">
               {t("HOME.TITLE_1")}
             </h1>
-            <p className="text-xl leading-loose max-lg:text-lg text-[#2F4F4F] font-sans">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg text-[#2F4F4F] font-sans">
               {t("SERVICE.DESC")}
             </p>
             <Link to="/services">
@@ -119,7 +119,7 @@ const HomePage = () => {
             <h1 className="font-bold text-[40px] text-[#2F4F4F] font-sans">
               {t("PRODUCT.TITLE")}
             </h1>
-            <p className="text-xl leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
               {t("PRODUCT.DESC")}
             </p>
             <Link to="/items">

@@ -15,72 +15,7 @@ const BurgerMenu = () => {
   const { t, i18n } = useTranslation();
   return (
     <>
-      {/* <Drawer open={isOpen} onClose={handleClose}>
-        <Drawer.Header title="MENU" titleIcon={() => <></>} />
-        <Drawer.Items>
-          <Sidebar
-            aria-label="Sidebar with multi-level dropdown example"
-            className="[&>div]:bg-transparent [&>div]:p-0"
-          >
-            <div className="flex h-full flex-col justify-between py-2">
-              <div>
-                <form className="pb-3 md:hidden">
-                  <TextInput
-                    icon={HiSearch}
-                    type="search"
-                    placeholder="Search"
-                    required
-                    size={32}
-                  />
-                </form>
-                <Sidebar.Items>
-                  <Sidebar.ItemGroup>
-                    <Sidebar.Item href="#" icon={HiHome}>
-                      Home
-                    </Sidebar.Item>
-                    <Sidebar.Item
-                      href="#"
-                      icon={HiNewspaper}
-                    >
-                      New
-                    </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiUsers}>
-                      Popular
-                    </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiTrendingUp}>
-                      Trending
-                    </Sidebar.Item>
-                    <Sidebar.Item
-                      href="#"
-                      icon={HiPencil}
-                    >
-                      Categories
-                    </Sidebar.Item>
-                  </Sidebar.ItemGroup>
-                  <Sidebar.ItemGroup>
-                    
-                    <Sidebar.Item
-                      href="#"
-                      icon={HiCollection}
-                    >
-                      Components
-                    </Sidebar.Item>
-                    <Sidebar.Item
-                      href="#"
-                      icon={HiInformationCircle}
-                    >
-                      Help
-                    </Sidebar.Item>
-                  </Sidebar.ItemGroup>
-                </Sidebar.Items>
-              </div>
-            </div>
-          </Sidebar>
-        </Drawer.Items>
-      </Drawer> */}
-
-      {/* <div className="bg-[#19072B20] backdrop-blur-lg shadow-2xl rounded-2xl p-5">
-      </div> */}
+      
       <Dropdown
         className="!bg-[#003366]  border-2 shadow-xl rounded-xl flex justify-center items-center w-[150px]"
         dismissOnClick={false}
@@ -102,25 +37,6 @@ const BurgerMenu = () => {
           </svg>
         )}
       >
-        {/* {location.pathname === "/" && (
-          <Dropdown.Item
-            href="#"
-            icon={IoHome}
-            className="text-white text-[16px] !bg-[#003366] hover:!bg-[#042b52]"
-          >
-            {t("N_HOME")}
-          </Dropdown.Item>
-        )}
-
-        {location.pathname !== "/" && (
-          <Dropdown.Item
-            icon={IoHome}
-            className="text-white text-[16px] !bg-[#003366] hover:!bg-[#042b52]"
-          >
-            <Link to="/">{t("N_HOME")}</Link>
-          </Dropdown.Item>
-        )} */}
-
         {location.pathname === "/" ? (
           <>
             <Dropdown.Item
