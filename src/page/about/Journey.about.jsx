@@ -17,7 +17,7 @@ const JourneyAbout = () => {
 
       <div className=" h-[300px]  duration-300 text-[#2F4F4F] w-[60%] max-md:w-[90%] p-8">
         <div className="text-center max-md:text-start">
-          <h1 className="text-4xl  max-md:text-[38px] leading-normal font-bold mb-7 ">
+          <h1 className="text-[39px]  max-md:text-[38px] leading-normal font-bold mb-7 ">
             {t('ABOUT.PAGE.JOURNEY')}
           </h1>
           <p className="text-xl max-lg:text-lg  max-sm:text-[16px] leading-loose indent-9 text-justify">
