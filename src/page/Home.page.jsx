@@ -45,14 +45,14 @@ const HomePage = () => {
               <Intro />
             </div>
             <div className="max-lg:hidden">
-              {/* <dotlottie-player
+              <dotlottie-player
                 src="https://lottie.host/5c746068-8412-458f-8afd-4c4e92984b2c/BJuIDov1Sk.json"
                 background="transparent"
                 speed={1}
                 style={{ width: 550, height: 450 }}
                 loop
                 autoPlay
-              /> */}
+              />
             </div>
           </div>
         </section>
