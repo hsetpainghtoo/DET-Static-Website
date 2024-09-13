@@ -18,9 +18,9 @@ const Language = () => {
       >
         <div className="flex justify-center items-center gap-3 text-white font-semibold">
           {i18n.language == "en" ? (
-            <img src="public\static\assets\myanmar.png" className="w-6"/>
+            <img src="../src/assets/myanmar.png" className="w-6"/>
           ) : (
-            <img src="public\static\assets\united-states.png" className="w-6"/>
+            <img src="../src/assets/united-states.png" className="w-6"/>
           )}
           {t("LANGUAGE")}
         </div>
