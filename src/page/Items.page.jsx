@@ -24,7 +24,7 @@ const ItemsPage = () => {
   return (
     <div className="bg-[#E0F7FA] min-h-[2900px]">
       {/* <div className=" w-full z-30 flex items-center sticky top-0 justify-between px-9 py-2 bg-[#003366] backdrop-blur-lg shadow-2xl">
-        <img src="public\assets\detlogo-ZWBJPo-I.png" className="w-48" />
+        <img src="public\static\assets\detlogo-ZWBJPo-I.png" className="w-48" />
 
         <div className="text-white flex gap-5 text-lg font-semibold">
           <Language />

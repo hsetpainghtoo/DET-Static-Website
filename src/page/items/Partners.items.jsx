@@ -25,7 +25,7 @@ const PartnersItems = () => {
           <div className=" w-full max-sm:mt-2">
             <img
               className="rounded-lg mt-2 w-20 max-sm:w-12 mx-auto"
-              src="public\assets\KyawSan.png"
+              src="public\static\assets\KyawSan.png"
             />
           </div>
         </SwiperSlide>
@@ -33,7 +33,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-1">
             <img
               className="rounded-lg w-28 max-sm:w-16 mx-auto"
-              src="public\assets\Zion.png"
+              src="public\static\assets\Zion.png"
             />
           </div>
         </SwiperSlide>
@@ -41,7 +41,7 @@ const PartnersItems = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-24 max-sm:w-14 mx-auto"
-              src="public\assets\SeinHlaNanda.png"
+              src="public\static\assets\SeinHlaNanda.png"
             />
           </div>
         </SwiperSlide>
@@ -49,7 +49,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-4 max-sm:mt-6">
             <img
               className="rounded-lg w-56 max-sm:w-56 mx-auto"
-              src="public\assets\ShweSinSetkyar.png"
+              src="public\static\assets\ShweSinSetkyar.png"
             />
           </div>
         </SwiperSlide>
@@ -57,7 +57,7 @@ const PartnersItems = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-24 max-sm:w-14 mx-auto"
-              src="public\assets\IoTHouse.png"
+              src="public\static\assets\IoTHouse.png"
             />
           </div>
         </SwiperSlide>
@@ -65,7 +65,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-3">
             <img
               className="rounded-lg w-24 max-sm:w-12 mx-auto"
-              src="public\assets\SanThit.png"
+              src="public\static\assets\SanThit.png"
             />
           </div>
         </SwiperSlide>
@@ -73,7 +73,7 @@ const PartnersItems = () => {
           <div className=" w-full">
             <img
               className="rounded-lg w-32 mt-4 max-sm:w-16 mx-auto"
-              src="public\assets\Dwin.png"
+              src="public\static\assets\Dwin.png"
             />
           </div>
         </SwiperSlide>
@@ -81,7 +81,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-3 max-sm:mt-2">
             <img
               className="rounded-lg w-56 pt-4 mx-auto"
-              src="public\assets\JLCPCB.png"
+              src="public\static\assets\JLCPCB.png"
             />
           </div>
         </SwiperSlide>

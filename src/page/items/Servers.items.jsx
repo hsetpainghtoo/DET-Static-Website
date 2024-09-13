@@ -30,7 +30,7 @@ const ServersItems = () => {
         {/* <SwiperSlide className="pt-16 pb-5 w-[30%] mx-auto bg-[#19072B20] backdrop-blur-lg  rounded-xl">
           <img
             className="w-48 absolute rounded-xl  left-12 top-4 z-20"
-            src="public\assets\Raspberry Pi 4 Case.png"
+            src="public\static\assets\Raspberry Pi 4 Case.png"
           />
           <div className="pt-5 mx-auto w-[260px] pb-4 pl-3 bg-[#003366]  rounded-xl">
             <h1 className="text-lg font-bold mt-20 mb-1 text-white">
@@ -49,7 +49,7 @@ const ServersItems = () => {
         <SwiperSlide className="pt-16 pb-5 w-[30%] mx-auto bg-[#19072B20] backdrop-blur-lg  rounded-xl ">
           <img
             className="w-44 absolute rounded-xl  left-14 top-1 z-20"
-            src="public\assets\GMK Server.png"
+            src="public\static\assets\GMK Server.png"
           />
           <div className="pt-8  mx-auto w-[260px] pb-4 pl-3 bg-[#003366] rounded-xl">
             <h1 className="text-lg font-bold mt-20 mb-1 text-white">
@@ -68,7 +68,7 @@ const ServersItems = () => {
         <SwiperSlide className="pt-12 pb-5 w-[30%] mx-auto bg-[#19072B20] backdrop-blur-lg  rounded-xl">
           <img
             className="w-52 absolute rounded-xl left-11 top-1 z-20"
-            src="public\assets\Bpi Router.png"
+            src="public\static\assets\Bpi Router.png"
           />
           <div className="pt-8  mx-auto w-[260px] pb-4 pl-3 bg-[#003366]  rounded-xl">
             <h1 className="text-lg font-bold mt-20 mb-1 text-white">
@@ -87,7 +87,7 @@ const ServersItems = () => {
         <SwiperSlide className="pt-16  pb-5 cols-span-1 mx-auto bg-[#003366] rounded-xl">
           <img
             className="w-64 absolute rounded-xl left-4 -top-8 z-20"
-            src="public\assets\Raspberry Pi 4 Case.png"
+            src="public\static\assets\Raspberry Pi 4 Case.png"
           />
           <div className="pt-10 mx-auto w-[260px]  pl-3   rounded-xl">
             <h1 className="text-xl font-bold mt-16 mb-2 text-white ">
@@ -106,7 +106,7 @@ const ServersItems = () => {
         <SwiperSlide className="pt-16 pb-5  cols-span-1 mx-auto bg-[#003366] rounded-xl ">
           <img
             className="w-56 absolute rounded-xl  left-8 -top-16 z-20"
-            src="public\assets\GMK Server.png"
+            src="public\static\assets\GMK Server.png"
           />
           <div className="pt-8  mx-auto w-[260px] pb-4 pl-3 rounded-xl">
             <h1 className="text-xl font-bold mt-20 mb-1 text-white">
@@ -125,7 +125,7 @@ const ServersItems = () => {
         <SwiperSlide className="pt-12 pb-5 cols-span-1 mx-auto bg-[#003366] rounded-xl">
           <img
             className="w-68 absolute rounded-xl -top-20 z-20"
-            src="public\assets\Bpi Router.png"
+            src="public\static\assets\Bpi Router.png"
           />
           <div className="pt-8  mx-auto w-[260px] pb-4 pl-3   rounded-xl">
             <h1 className="text-xl font-bold mt-20 mb-1 text-white">

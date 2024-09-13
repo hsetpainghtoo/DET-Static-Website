@@ -6,11 +6,11 @@ const IntroItems = () => {
   return (
     <div className="flex max-lg:flex-col gap-14 pt-4 justify-center items-center">
       <img
-        src="public\assets\Tech Company.svg"
+        src="public\static\assets\Tech Company.svg"
         className="w-[30%] max-lg:hidden pt-14 z-10"
       />
       <img
-        src="public\assets\background-shape.png"
+        src="public\static\assets\background-shape.png"
         className=" absolute max-lg:hidden left-8 max-xl:-left-1 animate-[linear_bounceY_infinite_10s] w-[600px] max-xl:w-[500px]  "
       />
 
@@ -25,7 +25,7 @@ const IntroItems = () => {
       </div>
 
       <img
-        src="public\assets\Tech Company.svg"
+        src="public\static\assets\Tech Company.svg"
         className="w-[30%] max-lg:w-[40%] max-[800px]:w-[50%] max-sm:w-[60%] max-[450px]:w-[70%] lg:hidden pt-20 max-sm:pt-6 max-[550px]:pt-32 max-[420px]:pt-56 max-[350px]:mt-20 z-10 pb-20 max-lg:pb-0 max-sm:pb-10"
       />
       <img
