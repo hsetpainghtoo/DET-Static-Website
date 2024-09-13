@@ -10,8 +10,12 @@ import Services from "../components/Services";
 import Products from "../components/Products";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0,0)
+  });
   const { t, i18n } = useTranslation();
   return (
     <>

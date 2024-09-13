@@ -33,7 +33,7 @@ const JourneyAbout = () => {
       />
       <img
         src="https://usercontent.one/wp/www.norderbergs.com/wp-content/uploads/2020/09/background-shapes-png-1-Images-PNG-Transparent.png"
-        className="max-sm:hidden md:hidden max-md:-bottom-52 absolute  animate-[linear_bounceY_infinite_10s] w-[500px] max-sm:w-[400px]"
+        className="max-sm:hidden md:hidden max-md:-bottom-7 absolute  animate-[linear_bounceY_infinite_10s] w-[500px] max-sm:w-[400px]"
       />
     </div>
   );
