@@ -26,7 +26,7 @@ const ServicesPage = () => {
 
     <div className="bg-[#E0F7FA] min-h-[5000px]">
       {/* <div className=" w-full z-30 flex items-center sticky top-0 justify-between px-9 py-2 bg-[#003366] backdrop-blur-lg shadow-2xl">
-        <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-48" />
+        <img src="public\assets\detlogo-ZWBJPo-I.png" className="w-48" />
 
         <div className="text-white flex gap-5 text-lg font-semibold">
           <Language/>
@@ -49,14 +49,14 @@ const ServicesPage = () => {
       {/* Consulting Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-0 mx-auto mb-24">
         <img
-          src="src\assets\Consulting.svg"
+          src="public\assets\Consulting.svg"
           className="w-[40%] max-md:hidden mx-auto hover:-translate-y-2 duration-200"
         />
         <div className="w-[50%] max-md:w-[95%] mx-auto">
           <Consult />
         </div>
         <img
-          src="src\assets\Consulting.svg"
+          src="public\assets\Consulting.svg"
           className="w-[40%] md:hidden max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -67,7 +67,7 @@ const ServicesPage = () => {
           <Data />
         </div>
         <img
-          src="src\assets\Data.svg"
+          src="public\assets\Data.svg"
           className="w-[40%] max-md:w-[70%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -75,7 +75,7 @@ const ServicesPage = () => {
       {/* Strategy Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-9 mx-auto mb-20">
         <img
-          src="src\assets\Strategy.svg"
+          src="public\assets\Strategy.svg"
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -84,7 +84,7 @@ const ServicesPage = () => {
         </div>
 
         <img
-          src="src\assets\Strategy.svg"
+          src="public\assets\Strategy.svg"
           className="w-[70%] md:hidden mx-auto hover:-translate-y-2 duration-200"
         />
       </section>

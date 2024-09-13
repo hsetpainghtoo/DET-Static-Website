@@ -28,7 +28,7 @@ const WaterProduct = () => {
               onClick={() => setOpenModal(false)}
             />
             <img
-              src="src\assets\detlogo-ZWBJPo-I.png"
+              src="public\assets\detlogo-ZWBJPo-I.png"
               className="w-[40%] max-sm:hidden"
             />
           </div>

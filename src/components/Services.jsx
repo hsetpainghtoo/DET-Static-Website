@@ -44,7 +44,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%]  max-lg:mx-auto rounded-xl  "
-              src="src\assets\fuelstation.jpg"
+              src="public\assets\fuelstation.jpg"
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px]  mb-3 font-bold text-white">
@@ -62,7 +62,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="src\assets\iotservice.jpg"
+              src="public\assets\iotservice.jpg"
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">
@@ -79,7 +79,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="src\assets\smarthome.jpg"
+              src="public\assets\smarthome.jpg"
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">
@@ -96,7 +96,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="src\assets\pos.jpg"
+              src="public\assets\pos.jpg"
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">

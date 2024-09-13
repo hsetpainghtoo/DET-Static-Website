@@ -21,13 +21,13 @@ const ATGProduct = () => {
           <div className="relative flex justify-center items-center gap-6">
             <img
               className="w-[52%] max-sm:w-[75%] rounded-xl shadow-xl hover:-translate-y-2 hover:scale-105 duration-200"
-              src="src\assets\ATG.jpg"
+              src="public\assets\ATG.jpg"
             />
             <IoIosCloseCircleOutline
               className="absolute animate-pulse top-0 right-0 text-white hover:scale-110 active:scale-95 duration-200 size-10"
               onClick={() => setOpenModal(false)}
             />
-            <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden" />
+            <img src="public\assets\detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden" />
           </div>
           <div className="pt-5">
             <div className="flex gap-3 justify-center items-center w-[93%] mx-auto">

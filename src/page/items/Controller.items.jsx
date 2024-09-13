@@ -11,7 +11,7 @@ const ControllerItems = () => {
 
       <div className="flex max-lg:flex-col justify-center items-center gap-12 ">
         <img
-          src="src\assets\Touch Controller.png"
+          src="public\assets\Touch Controller.png"
           className=" lg:hidden  h-full max-lg:w-[70%] max-sm:w-full "
         />
         <div className="text-xl max-sm:text-[16px] leading-loose text-justify indent-9">
@@ -19,7 +19,7 @@ const ControllerItems = () => {
           <p>{t("ITEMS.PAGE.CONTROLLER.desc_2")}</p>
         </div>
         <img
-          src="src\assets\Touch Controller.png"
+          src="public\assets\Touch Controller.png"
           className="w-full max-lg:hidden h-72"
         />
       </div>

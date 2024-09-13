@@ -27,7 +27,7 @@ const Partners = () => {
           <div className=" w-full max-sm:mt-2">
             <img
               className="rounded-lg w-24 max-sm:w-20 max-[420px]:w-16 mx-auto"
-              src="src\assets\KyawSan.png"
+              src="public\assets\KyawSan.png"
             />
           </div>
         </SwiperSlide>
@@ -35,7 +35,7 @@ const Partners = () => {
           <div className=" w-full mt-1">
             <img
               className="rounded-lg w-32 max-sm:w-28 max-[420px]:w-24 mx-auto"
-              src="src\assets\Zion.png"
+              src="public\assets\Zion.png"
             />
           </div>
         </SwiperSlide>
@@ -43,7 +43,7 @@ const Partners = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-28 max-sm:w-24 max-[420px]:w-20 mx-auto"
-              src="src\assets\SeinHlaNanda.png"
+              src="public\assets\SeinHlaNanda.png"
             />
           </div>
         </SwiperSlide>
@@ -51,7 +51,7 @@ const Partners = () => {
           <div className=" w-full mt-4 max-sm:mt-6">
             <img
               className="rounded-lg w-60 max-sm:w-56 mx-auto"
-              src="src\assets\ShweSinSetkyar.png"
+              src="public\assets\ShweSinSetkyar.png"
             />
           </div>
         </SwiperSlide>
@@ -76,7 +76,7 @@ const Partners = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-28 max-sm:w-24 max-[420px]:w-20 mx-auto"
-              src="src\assets\IoTHouse.png"
+              src="public\assets\IoTHouse.png"
             />
           </div>
         </SwiperSlide>
@@ -84,7 +84,7 @@ const Partners = () => {
           <div className=" w-full mt-1">
             <img
               className="rounded-lg w-32 max-sm:w-24 max-[420px]:mt-2 max-[420px]:w-20 mx-auto"
-              src="src\assets\SanThit.png"
+              src="public\assets\SanThit.png"
             />
           </div>
         </SwiperSlide>
@@ -92,7 +92,7 @@ const Partners = () => {
           <div className=" w-full">
             <img
               className="rounded-lg w-40 mt-2 max-sm:w-32 max-[420px]:w-28 mx-auto"
-              src="src\assets\Dwin.png"
+              src="public\assets\Dwin.png"
             />
           </div>
         </SwiperSlide>
@@ -100,7 +100,7 @@ const Partners = () => {
           <div className=" w-full mt-4 max-sm:mt-2">
             <img
               className="rounded-lg w-60 pt-4 mx-auto"
-              src="src\assets\JLCPCB.png"
+              src="public\assets\JLCPCB.png"
             />
           </div>
         </SwiperSlide>

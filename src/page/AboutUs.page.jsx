@@ -16,7 +16,7 @@ const AboutUsPage = () => {
   return (
     <div className="bg-[#E0F7FA] min-h-[2700px]">
       {/* <div className=" w-full z-30 flex items-center sticky top-0 justify-between px-9 py-2 bg-[#003366] backdrop-blur-lg shadow-2xl">
-        <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-48" />
+        <img src="public\assets\detlogo-ZWBJPo-I.png" className="w-48" />
 
         <div className="text-white flex gap-5 text-lg font-semibold">
           <Language/>
@@ -39,7 +39,7 @@ const AboutUsPage = () => {
       {/* Milestones Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20 mt-36 max-md:mt-28 max-sm:mt-20">
         <img
-          src="src\assets\Milestones.svg"
+          src="public\assets\Milestones.svg"
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -48,7 +48,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="src\assets\Milestones.svg"
+          src="public\assets\Milestones.svg"
           className="w-[60%] mx-auto md:hidden hover:-translate-y-2 duration-200"
         />
       </section>
@@ -60,7 +60,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="src\assets\Mission.svg"
+          src="public\assets\Mission.svg"
           className="w-[40%] max-md:w-[60%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -68,7 +68,7 @@ const AboutUsPage = () => {
       {/* Priorities Section */}
       <section className="w-[90%] flex max-md:flex-col justify-center items-center gap-20 mx-auto">
         <img
-          src="src\assets\Values.svg"
+          src="public\assets\Values.svg"
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -77,7 +77,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="src\assets\Values.svg"
+          src="public\assets\Values.svg"
           className="w-[70%] mx-auto md:hidden hover:-translate-y-2 duration-200"
         />
       </section>

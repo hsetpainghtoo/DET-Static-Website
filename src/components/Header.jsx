@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <div className=" z-30 w-full flex items-center justify-between sticky top-0 px-9 py-2 bg-[#003366] backdrop-blur-lg shadow-2xl">
-        <img src="src\assets\detlogo-ZWBJPo-I.png" className="w-48" />
+        <img src="public\assets\detlogo-ZWBJPo-I.png" className="w-48" />
 
         <ul
           id="navbar"
