@@ -49,7 +49,7 @@ const HomePage = () => {
         {/* Skills Section */}
         <section className="w-full flex max-lg:flex-col justify-center items-center gap-3 ">
           {/* <Skills /> */}
-          <img src="../../public/img/5v-5a-power-supply (1).jpg" alt="test"/>
+          <img src="../../public/img/power_supply.jpg" alt="test"/>
 
           <div className="w-[40%] max-lg:w-[70%] text-center space-y-4 max-lg:mt-5">
             <h1 className="font-bold  text-[45px] max-xl:text-4xl text-[#2F4F4F] font-sans">
