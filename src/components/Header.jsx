@@ -5,6 +5,7 @@ import Language from "./Language";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import detlogo from "../../public/static/assets/detlogo-ZWBJPo-I.png"
 
 // import BurgerMenu from "./BurgerMenu";
 
@@ -14,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div className=" z-30 w-full flex items-center justify-between sticky top-0 px-9 py-2 bg-[#003366] backdrop-blur-lg shadow-2xl">
-        <img src="../../public/static/assets/detlogo-ZWBJPo-I.png" className="w-48" />
+        <img src={detlogo} className="w-48" />
 
         <ul
           id="navbar"
