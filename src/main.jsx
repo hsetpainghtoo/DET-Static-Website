@@ -6,9 +6,10 @@ import "./index.css";
 import "./i18n.js";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Suspense } from "react";
+import Loader from "./components/Loader.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Suspense fallback="loading">
+  <Suspense fallback={<Loader/>}>
     <Router>
       <App />
     </Router>
