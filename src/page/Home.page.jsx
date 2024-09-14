@@ -11,6 +11,7 @@ import Products from "../components/Products";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import img from '../assets/images/power_supply.jpg'
 
 const HomePage = () => {
   useEffect(() => {
@@ -49,7 +50,7 @@ const HomePage = () => {
         {/* Skills Section */}
         <section className="w-full flex max-lg:flex-col justify-center items-center gap-3 ">
           {/* <Skills /> */}
-          <img src="../../public/static/images/power_supply.jpg" alt="test"/>
+          <img src={img} alt="test"/>
 
           <div className="w-[40%] max-lg:w-[70%] text-center space-y-4 max-lg:mt-5">
             <h1 className="font-bold  text-[45px] max-xl:text-4xl text-[#2F4F4F] font-sans">
