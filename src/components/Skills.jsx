@@ -8,8 +8,8 @@ const Skills = () => {
       <div className="h-[350px] border-2 border-black hover:border-dashed hover:border-[#003366] bg-black hover:bg-[#19072B20] backdrop-blur-lg shadow-lg shadow-slate-600 w-[17%] duration-200 hover:w-[40%] rounded-[45px]">
         <img
           className="absolute h-full w-full px-2"
-          src="https://www.svgrepo.com/show/233800/light-bulb-idea.svg"
-          // src="../../public/static/assets/Innovation.svg"
+          // src="https://www.svgrepo.com/show/233800/light-bulb-idea.svg"
+          src="../../public/static/assets/Innovation.svg"
         />
         <p className="font-semibold h-full flex items-end justify-center text-2xl overflow-hidden py-8">
           {t("SKILLS.INNO")}
