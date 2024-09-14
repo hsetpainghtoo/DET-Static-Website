@@ -1,6 +1,11 @@
 import { HR } from "flowbite-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import WebDevelopment from "../../../public/static/assets/WebDevelopment.png"
+import AppDevelopment from "../../../public/static/assets/AppDevelopment.png"
+import SoftwareDevelopment from "../../../public/static/assets/SoftwareDevelopment.png"
+import POSSystemDevelopment from "../../../public/static/assets/POSSystemDevelopment.png"
+import ServerMaintenance from "../../../public/static/assets/ServerMaintenance.png"
 
 const OtherService = () => {
   const {t, i18n} = useTranslation();
@@ -16,21 +21,21 @@ const OtherService = () => {
         <div className="flex gap-6 text-center justify-around pb-9">
           <div>
             <img
-              src="../../public/static/assets/WebDevelopment.png"
+              src={WebDevelopment}
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Web Development</span>
           </div>
           <div>
             <img
-              src="../../public/static/assets/AppDevelopment.png"
+              src={AppDevelopment}
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">App Development</span>
           </div>
           <div>
             <img
-              src="../../public/static/assets/SoftwareDevelopment.png"
+              src={SoftwareDevelopment}
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Software Development</span>
@@ -39,14 +44,14 @@ const OtherService = () => {
         <div className="flex gap-4 text-center justify-evenly">
           <div>
             <img
-              src="../../public/static/assets/POSSystemDevelopment.png"
+              src={POSSystemDevelopment}
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">POS System Development</span>
           </div>
           <div>
             <img
-              src="../../public/static/assets/ServerMaintenance.png"
+              src={ServerMaintenance}
               className="w-24 max-sm:w-[4rem] mx-auto pb-2 hover:-translate-y-2 duration-200"
             />
             <span className="font-semibold text-lg xl:text-xl max-md:text-sm max-sm:text-xs">Server Maintenance Services</span>

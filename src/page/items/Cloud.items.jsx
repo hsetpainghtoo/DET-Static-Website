@@ -1,5 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Login from "../../../public/static/assets/Login.png"
+import PPRD from "../../../public/static/assets/PPRD.png"
+
 
 const CloudItems = () => {
   const { t, i18n } = useTranslation();
@@ -12,11 +15,11 @@ const CloudItems = () => {
       <div className="flex max-lg:flex-col gap-20 max-xl:gap-10">
         <div className="w-full max-lg:w-[80%] max-sm:w-full mx-auto h-[400px] max-xl:h-[340px] relative">
           <img
-            src="../../public/static/assets/Login.png"
+            src={Login}
             className="w-[70%] max-lg:w-[60%] max-md:w-[20rem] max-[570px]:w-[19rem] max-[500px]:w-[17rem] max-[430px]:w-[16rem] max-[500px]:top-4 absolute"
           />
           <img
-            src="../../public/static/assets/PPRD.png"
+            src={PPRD}
             className="w-[70%] max-lg:w-[60%] max-md:w-[20rem] max-[570px]:w-[19rem] max-[500px]:w-[17rem] max-[430px]:w-[16rem] absolute bottom-0 right-0 max-[570px]:bottom-10"
           />
         </div>

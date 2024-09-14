@@ -3,6 +3,8 @@ import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import handwash from "../../public/static/assets/handwash.jpg"
+import detlogo from "../../public/static/assets/detlogo-ZWBJPo-I.png"
 
 const HandwashProduct = () => {
   const {t,i18n} = useTranslation();
@@ -21,10 +23,10 @@ const HandwashProduct = () => {
           <div className="relative flex justify-evenly items-center gap-6 w-[95%] mx-auto">
             <img
               className="w-[50%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="../../public/static/assets/hands.jpg"
+              src={handwash}
             />
 
-            <img src="../../public/static/assets/detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden" />
+            <img src={detlogo} className="w-[40%] max-sm:hidden" />
           </div>
           <IoIosCloseCircleOutline
             className="absolute animate-pulse top-5 right-5 text-white hover:scale-110 active:scale-95 duration-200 size-10"

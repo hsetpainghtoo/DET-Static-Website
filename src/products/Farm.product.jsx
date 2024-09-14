@@ -3,6 +3,8 @@ import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import detlogo from "../../public/static/assets/detlogo-ZWBJPo-I.png"
+import smartfarm from "../../public/static/assets/SmartFarm.jpg"
 
 const FarmProduct = () => {
   const {t,i18n} = useTranslation();
@@ -21,9 +23,9 @@ const FarmProduct = () => {
           <div className="relative flex justify-center items-center gap-6 w-[95%] mx-auto">
             <img
               className="w-[52%] max-sm:w-[80%] rounded-xl shadow-xl hover:scale-105 duration-200"
-              src="../../public/static/assets/SmartFarm.jpg"
+              src={smartfarm}
             />
-            <img src="../../public/static/assets/detlogo-ZWBJPo-I.png" className="w-[40%] max-sm:hidden"/>
+            <img src={detlogo} className="w-[40%] max-sm:hidden"/>
           </div>
             <IoIosCloseCircleOutline
               className="absolute animate-pulse top-5 right-5 text-white hover:scale-110 active:scale-95 duration-200 size-10"

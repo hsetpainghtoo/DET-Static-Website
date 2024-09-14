@@ -1,6 +1,7 @@
 import { HR, List } from "flowbite-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import benefits from "../../../public/static/assets/Benefits.svg"
 
 const BenefitsService = () => {
   const { t, i18n } = useTranslation();
@@ -18,7 +19,7 @@ const BenefitsService = () => {
       </div>
       <div className="flex max-md:flex-col gap-4">
         <img
-          src="../../public/static/assets/Benefits.svg"
+          src={benefits}
           className="w-[50%] max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
         <div className="text-xl max-sm:text-[15px] w-[50%] max-md:w-[95%] mx-auto xl:text-xl">

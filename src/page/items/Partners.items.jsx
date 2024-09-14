@@ -2,6 +2,14 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import KyawSan from "../../../public/static/assets/KyawSan.png"
+import Zion from "../../../public/static/assets/Zion.png"
+import SeinHlaNanda from "../../../public/static/assets/SeinHlaNanda.png"
+import  ShweSinSetkyar from "../../../public/static/assets/ShweSinSetkyar.png"
+import IoTHouse from "../../../public/static/assets/IoTHouse.png"
+import SanThit from "../../../public/static/assets/SanThit.png"
+import Dwin from "../../../public/static/assets/Dwin.png"
+import JLCPCB from "../../../public/static/assets/JLCPCB.png"
 
 const PartnersItems = () => {
   return (
@@ -25,7 +33,7 @@ const PartnersItems = () => {
           <div className=" w-full max-sm:mt-2">
             <img
               className="rounded-lg mt-2 w-20 max-sm:w-12 mx-auto"
-              src="../../public/static/assets/KyawSan.png"
+              src={KyawSan}
             />
           </div>
         </SwiperSlide>
@@ -33,7 +41,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-1">
             <img
               className="rounded-lg w-28 max-sm:w-16 mx-auto"
-              src="../../public/static/assets/Zion.png"
+              src={Zion}
             />
           </div>
         </SwiperSlide>
@@ -41,7 +49,7 @@ const PartnersItems = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-24 max-sm:w-14 mx-auto"
-              src="../../public/static/assets/SeinHlaNanda.png"
+              src={SeinHlaNanda}
             />
           </div>
         </SwiperSlide>
@@ -49,7 +57,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-4 max-sm:mt-6">
             <img
               className="rounded-lg w-56 max-sm:w-56 mx-auto"
-              src="../../public/static/assets/ShweSinSetkyar.png"
+              src={ShweSinSetkyar}
             />
           </div>
         </SwiperSlide>
@@ -57,7 +65,7 @@ const PartnersItems = () => {
           <div className=" w-full ">
             <img
               className="rounded-lg w-24 max-sm:w-14 mx-auto"
-              src="../../public/static/assets/IoTHouse.png"
+              src={IoTHouse}
             />
           </div>
         </SwiperSlide>
@@ -65,7 +73,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-3">
             <img
               className="rounded-lg w-24 max-sm:w-12 mx-auto"
-              src="../../public/static/assets/SanThit.png"
+              src={SanThit}
             />
           </div>
         </SwiperSlide>
@@ -73,7 +81,7 @@ const PartnersItems = () => {
           <div className=" w-full">
             <img
               className="rounded-lg w-32 mt-4 max-sm:w-16 mx-auto"
-              src="../../public/static/assets/Dwin.png"
+              src={Dwin}
             />
           </div>
         </SwiperSlide>
@@ -81,7 +89,7 @@ const PartnersItems = () => {
           <div className=" w-full mt-3 max-sm:mt-2">
             <img
               className="rounded-lg w-56 pt-4 mx-auto"
-              src="../../public/static/assets/JLCPCB.png"
+              src={JLCPCB}
             />
           </div>
         </SwiperSlide>

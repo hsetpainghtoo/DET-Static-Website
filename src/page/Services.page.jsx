@@ -15,6 +15,10 @@ import Footer from "../components/Footer";
 import { useEffect } from "react";
 import Language from "../components/Language";
 import Header from "../components/Header";
+import consulting from "../../public/static/assets/Consulting.svg"
+import data from "../../public/static/assets/Data.svg"
+import strategy from "../../public/static/assets/Strategy.svg"
+
 
 const ServicesPage = () => {
   
@@ -49,14 +53,14 @@ const ServicesPage = () => {
       {/* Consulting Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-0 mx-auto mb-24">
         <img
-          src="../../public/static/assets/Consulting.svg"
+          src={consulting}
           className="w-[40%] max-md:hidden mx-auto hover:-translate-y-2 duration-200"
         />
         <div className="w-[50%] max-md:w-[95%] mx-auto">
           <Consult />
         </div>
         <img
-          src="../../public/static/assets/Consulting.svg"
+          src={consulting}
           className="w-[40%] md:hidden max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -67,7 +71,7 @@ const ServicesPage = () => {
           <Data />
         </div>
         <img
-          src="../../public/static/assets/Data.svg"
+          src={data}
           className="w-[40%] max-md:w-[70%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -75,7 +79,7 @@ const ServicesPage = () => {
       {/* Strategy Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-9 mx-auto mb-20">
         <img
-          src="../../public/static/assets/Strategy.svg"
+          src={strategy}
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -84,7 +88,7 @@ const ServicesPage = () => {
         </div>
 
         <img
-          src="../../public/static/assets/Strategy.svg"
+          src={strategy}
           className="w-[70%] md:hidden mx-auto hover:-translate-y-2 duration-200"
         />
       </section>

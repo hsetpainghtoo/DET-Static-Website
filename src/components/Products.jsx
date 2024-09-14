@@ -8,6 +8,11 @@ import "swiper/css/effect-creative";
 import { EffectCards } from "swiper/modules";
 import { ATG, Farm, FMS, HandWash, Laser, Room, Water } from "../products";
 import { useTranslation } from "react-i18next";
+import fms from "../../public/static/assets/FMS.jpg"
+import laser from "../../public/static/assets/laser.jpg"
+import smartfarm from "../../public/static/assets/SmartFarm.jpg"
+import handwash from "../../public/static/assets/handwash.jpg"
+import atg from "../../public/static/assets/ATG.jpg"
 
 const Products = () => {
   const { t, i18n } = useTranslation();
@@ -25,7 +30,8 @@ const Products = () => {
             <div className="bg-[#003366] p-5 rounded-xl">
               <img
                 className="w-64 absolute rounded-xl  right-[33px] bottom-60"
-                src="https://i.pinimg.com/564x/e0/8b/88/e08b88403de92610f30f491261b71025.jpg"
+                // src="https://i.pinimg.com/564x/e0/8b/88/e08b88403de92610f30f491261b71025.jpg"
+                src={fms}
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Real-Time Fuel Station Management System
@@ -43,7 +49,8 @@ const Products = () => {
             <div className="bg-[#003366] p-5 rounded-xl">
               <img
                 className="w-64 absolute rounded-xl  right-[33px] bottom-[230px]"
-                src="https://i.pinimg.com/564x/be/1e/96/be1e96b3ce81ff907d5bd96b1087a764.jpg"
+                // src="https://i.pinimg.com/564x/be/1e/96/be1e96b3ce81ff907d5bd96b1087a764.jpg"
+                src={laser}
               />
               <h1 className="text-lg font-bold mt-28 mb-1 text-white">
                 Laser Security Alert System
@@ -61,7 +68,8 @@ const Products = () => {
             <div className="bg-[#003366] p-5 rounded-xl">
               <img
                 className="w-[260px] absolute rounded-xl  right-[31px] bottom-56"
-                src="https://i.pinimg.com/564x/ee/1f/cb/ee1fcb4cde6388d5b4c959931cf15aa3.jpg"
+                // src="https://i.pinimg.com/564x/ee/1f/cb/ee1fcb4cde6388d5b4c959931cf15aa3.jpg"
+                src={smartfarm}
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Smart Farm System
@@ -79,7 +87,8 @@ const Products = () => {
             <div className="bg-[#003366] p-5 rounded-xl">
               <img
                 className="w-[250px] absolute rounded-xl  right-[35px] bottom-52"
-                src="https://www.hopkinsmedicine.org/-/media/patient-safety/images/hands2.jpg"
+                // src="https://www.hopkinsmedicine.org/-/media/patient-safety/images/hands2.jpg"
+                src={handwash}
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Automatic Hand Wash
@@ -98,6 +107,7 @@ const Products = () => {
               <img
                 className="w-[260px] absolute rounded-xl  right-[31px] bottom-56"
                 src="https://cdn.news2day.co.kr/data2/content/image/2024/06/27/.cache/512/20240627500198.png"
+                
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Smart Room Controller
@@ -115,7 +125,8 @@ const Products = () => {
             <div className="bg-[#003366] p-5 rounded-xl">
               <img
                 className="w-[244px] absolute rounded-xl  right-[38px] bottom-[230px]"
-                src="https://i.pinimg.com/564x/ac/cd/b5/accdb5d182e5670e287e0cdbd2426847.jpg"
+                // src="https://i.pinimg.com/564x/ac/cd/b5/accdb5d182e5670e287e0cdbd2426847.jpg"
+                src={atg}
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Automatic Tank Gauge System (ATG)
@@ -134,6 +145,7 @@ const Products = () => {
               <img
                 className="w-[244px] absolute rounded-xl  right-[38px] bottom-[220px]"
                 src="https://b3553652.smushcdn.com/3553652/wp-content/uploads/2020/10/10-418-In-situ-01.jpg?lossy=2&strip=1&webp=1"
+                
               />
               <h1 className="text-lg font-bold mt-36 mb-1 text-white">
                 Smart Water Controller

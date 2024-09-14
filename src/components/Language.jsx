@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import myanmar from "../../public/static/assets/myanmar.png"
+import united_states from "../../public/static/assets/united-states.png"
 
 const Language = () => {
   const { t, i18n } = useTranslation();
@@ -18,9 +20,9 @@ const Language = () => {
       >
         <div className="flex justify-center items-center gap-3 text-white font-semibold">
           {i18n.language == "en" ? (
-            <img src="../../public/static/assets/myanmar.png" className="w-6"/>
+            <img src={myanmar} className="w-6"/>
           ) : (
-            <img src="../../public/static/assets/united-states.png" className="w-6"/>
+            <img src={united_states} className="w-6"/>
           )}
           {t("LANGUAGE")}
         </div>

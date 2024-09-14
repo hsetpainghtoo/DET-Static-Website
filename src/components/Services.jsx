@@ -12,6 +12,11 @@ import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 
+import FuelStation from "../../public/static/assets/fuelstation.jpg"
+import IoTservice from "../../public/static/assets/iotservice.jpg"
+import SmartHome from "../../public/static/assets/smarthome.jpg"
+import POS from "../../public/static/assets/pos.jpg";
+
 const ServiceSwiper = () => {
   const { t, i18n } = useTranslation();
   // console.log(t('SERVICE.CARD'))
@@ -44,7 +49,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%]  max-lg:mx-auto rounded-xl  "
-              src="../../public/static/assets/fuelstation.jpg"
+              src={FuelStation}
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px]  mb-3 font-bold text-white">
@@ -62,7 +67,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="../../public/static/assets/iotservice.jpg"
+              src={IoTservice}
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">
@@ -79,7 +84,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="../../public/static/assets/smarthome.jpg"
+              src={SmartHome}
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">
@@ -96,7 +101,7 @@ const ServiceSwiper = () => {
           <div className=" flex max-lg:flex-col gap-5 h-full bg-[#003366]  p-5 rounded-xl ">
             <img
               className="w-60 max-lg:w-[95%] max-lg:mx-auto rounded-xl  "
-              src="../../public/static/assets/pos.jpg"
+              src={POS}
             />
             <div className="flex-col my-auto">
               <h1 className="text-[26px] max-xl:text-[35px] max-sm:text-[30px] max-[440px]:text-[25px] mb-3 font-bold text-white">

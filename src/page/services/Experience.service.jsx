@@ -1,6 +1,7 @@
 import { Blockquote, HR, List } from "flowbite-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import detlogo from "../../../public/static/assets/detlogo.png"
 
 const ExperienceService = () => {
   const { t, i18n } = useTranslation();
@@ -9,7 +10,7 @@ const ExperienceService = () => {
       <div className="flex px-11">
         <HR.Trimmed className="bg-[#003366] w-[20%] max-sm:w-[10%] max-sm:mt-7 max-md:mt-12 mt-2" />
         <img
-          src="../../public/static/assets/detlogo.png"
+          src={detlogo}
           className="w-[30%] max-lg:w-[50%] max-md:w-[60%] max-sm:w-[70%] "
         />
         <HR.Trimmed className="bg-[#003366] w-[20%] max-sm:w-[10%] max-sm:mt-7 max-md:mt-12 mt-2" />

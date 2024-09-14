@@ -6,6 +6,9 @@ import Footer from "../components/Footer";
 import { useEffect } from "react";
 import Language from "../components/Language";
 import Header from "../components/Header";
+import milestones from "../../public/static/assets/Milestones.svg"
+import missions from "../../public/static/assets/Mission.svg"
+import values from "../../public/static/assets/Values.svg"
 
 const AboutUsPage = () => {
 
@@ -39,7 +42,7 @@ const AboutUsPage = () => {
       {/* Milestones Section */}
       <section className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20 mt-36 max-md:mt-28 max-sm:mt-20">
         <img
-          src="../../public/static/assets/Milestones.svg"
+          src={milestones}
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -48,7 +51,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="../../public/static/assets/Milestones.svg"
+          src={milestones}
           className="w-[60%] mx-auto md:hidden hover:-translate-y-2 duration-200"
         />
       </section>
@@ -60,7 +63,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="../../public/static/assets/Mission.svg"
+          src={missions}
           className="w-[40%] max-md:w-[60%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
@@ -68,7 +71,7 @@ const AboutUsPage = () => {
       {/* Priorities Section */}
       <section className="w-[90%] flex max-md:flex-col justify-center items-center gap-20 mx-auto">
         <img
-          src="../../public/static/assets/Values.svg"
+          src={values}
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
         />
 
@@ -77,7 +80,7 @@ const AboutUsPage = () => {
         </div>
 
         <img
-          src="../../public/static/assets/Values.svg"
+          src={values}
           className="w-[70%] mx-auto md:hidden hover:-translate-y-2 duration-200"
         />
       </section>

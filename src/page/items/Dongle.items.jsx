@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Dongle from "../../../public/static/assets/POS_Donge.png"
 
 const DongleItems = () => {
   const { t, i18n } = useTranslation();
@@ -11,7 +12,7 @@ const DongleItems = () => {
 
       <div className="flex max-lg:flex-col gap-16 ">
         <img
-          src="../../public/static/assets/POS_Donge.png"
+          src={Dongle}
           className="w-full max-lg:w-[50%] max-sm:w-[70%] mx-auto h-72 max-lg:h-full"
         />
         <div className="text-xl max-sm:text-[16px] leading-loose text-justify indent-9">

@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import detlogo from "../../public/static/assets/detlogo-ZWBJPo-I.png"
 
 const WaterProduct = () => {
   const {t,i18n} = useTranslation();
@@ -28,7 +29,7 @@ const WaterProduct = () => {
               onClick={() => setOpenModal(false)}
             />
             <img
-              src="../../public/static/assets/detlogo-ZWBJPo-I.png"
+              src={detlogo}
               className="w-[40%] max-sm:hidden"
             />
           </div>

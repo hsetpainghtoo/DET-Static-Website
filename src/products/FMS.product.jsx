@@ -3,6 +3,8 @@ import React from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import detlogo from "../../public/static/assets/detlogo-ZWBJPo-I.png"
+import fms from "../../public/static/assets/FMS.jpg"
 
 const FMSProduct = () => {
   const {t,i18n} = useTranslation();
@@ -29,11 +31,11 @@ const FMSProduct = () => {
           <div className="mb-5 flex justify-evenly items-center">
             <img
               className="w-[40%] max-sm:w-[80%] hover:scale-105 duration-200 rounded-xl shadow-xl "
-              src="../../public/static/assets/FMS.jpg"
+              src={fms}
             />
 
             <img
-              src="../../public/static/assets/detlogo-ZWBJPo-I.png"
+              src={detlogo}
               className="w-[40%] max-sm:hidden"
             />
           </div>
