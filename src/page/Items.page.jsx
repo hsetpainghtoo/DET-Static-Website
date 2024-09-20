@@ -59,7 +59,7 @@ const ItemsPage = () => {
           <h1 className="font-bold text-[38px] max-md:text-[32px] max-[500px]:text-[23px] text-[#2F4F4F] font-sans">
             {t("ITEMS.PAGE.SERVERS.title")}
           </h1>
-          <p className="leading-loose text-xl max-sm:text-[13px] font-sans text-[#2F4F4F]">
+          <p className="leading-loose text-xl max-sm:text-[15px] font-sans text-[#2F4F4F]">
             {t("ITEMS.PAGE.SERVERS.desc")}
           </p>
         </div>

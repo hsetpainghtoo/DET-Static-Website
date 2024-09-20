@@ -15,7 +15,7 @@ const ControllerItems = () => {
           src={Controller}
           className=" lg:hidden  h-full max-lg:w-[70%] max-sm:w-full "
         />
-        <div className="text-xl max-sm:text-[13px] leading-loose text-justify indent-9">
+        <div className="text-xl max-sm:text-[15px] leading-loose text-justify indent-9">
           <p>{t("ITEMS.PAGE.CONTROLLER.desc_1")}</p>
           <p>{t("ITEMS.PAGE.CONTROLLER.desc_2")}</p>
         </div>

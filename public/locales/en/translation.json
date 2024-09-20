@@ -110,7 +110,7 @@
     "DESC": "Our IoT products at Digital Engineering Tech Ltd integrate advanced technology with practical applications, delivering smart, scalable solutions that enhance connectivity, optimize operations, and drive data-driven decisions for your business.",
 
     "CARD": {      
-      "desc_1": "Real-Time Fuel Station Management System is based on Wireless Network System, connecting with your fuel dispensers and controlling nozzles. Direct views of each nozzle's information; You wil be able to manage information accurately and easily. By using this system, one day at your gas station, a week Ability to easily view monthly oil sales details; According to each type of oil, The ability to search and view details for each type of golf course. You can also check oil balance lists and oil import history by oil type. Oil prices that change daily can easily be changed according to the type of fuel used.",
+      "desc_1": "Real-Time Fuel Station Management System is based on Wireless Network System, connecting with your fuel dispensers and controlling nozzles. Direct views of each nozzle's information; You wil be able to manage information accurately and easily. By using this system, one day at your gas station, a week Ability to easily view monthly fuel sales details; According to each type of fuel, The ability to search and view details for each type of golf course. You can also check fuel balance lists and fuel import history by fuel type. Fuel prices that change daily can easily be changed according to the type of fuel used.",
       
       "desc_2": "The Laser Security Alert System is a remarkable security solution that effectively safeguards your business, territory, and industrial zones against intruders. This advanced security system utilizes laser technology to detect any suspicious activity and is primarily deployed in expansive industrial and commercial areas. the system operates by generating a laser beam equipped with high-tech sensors that can sense the slightest movements within the designated perimeter. As soon as an object or an intruder crosses the specified boundary, the laser beam immediately triggers an alarm system, alerts the authorities of the security breach, and sends out an SMS notification to the users. A prime example of the Laser Security Alert System in action is at the \"Sein Hla Nanda Neutral Compost Fertilizer Company\" located in Inle Lake, Shan State, where the technology is currently in use.",
       
@@ -209,17 +209,5 @@
   "N_SER": "Service",
   "N_PRO": "Product",
   "N_ABOUT": "About",
-  "N_CONTACT": "Contact",
-  "QUOTE": {
-    "TITLE": {
-      "S1": "Everything in one App",
-      "S2": "For Simple, Secure And Smart",
-      "S3": "Use Smart Devices"
-    },
-    "SUB": {
-      "S1": "Control Your Home With DET Products...",
-      "S2": "Use DET Products",
-      "S3": "To Become Smart Life"
-    }
-  }
+  "N_CONTACT": "Contact"
 }

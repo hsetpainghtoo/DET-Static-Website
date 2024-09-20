@@ -15,7 +15,7 @@ const DongleItems = () => {
           src={Dongle}
           className="w-full max-lg:w-[50%] max-sm:w-[70%] mx-auto h-72 max-lg:h-full"
         />
-        <div className="text-xl max-sm:text-[13px] leading-loose text-justify indent-9">
+        <div className="text-xl max-sm:text-[15px] leading-loose text-justify indent-9">
           <p>{t("ITEMS.PAGE.DONGLE.desc_1")}</p>
           <p>{t("ITEMS.PAGE.DONGLE.desc_2")}</p>
         </div>

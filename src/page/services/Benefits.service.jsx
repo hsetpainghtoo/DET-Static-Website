@@ -22,7 +22,7 @@ const BenefitsService = () => {
           src={benefits}
           className="w-[50%] max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
-        <div className="text-xl max-sm:text-[15px] max-[500px]:text-[13px] w-[50%] max-md:w-[95%] mx-auto xl:text-xl">
+        <div className="text-xl max-lg:text-[18px] max-sm:text-[15px] max-[500px]:text-[15px] w-[50%] max-md:w-[95%] mx-auto xl:text-xl">
           <p className="indent-11 text-justify leading-loose">
             {t("SERVICE_PAGE.BENEFITS.desc_1")}
           </p>
@@ -38,7 +38,7 @@ const BenefitsService = () => {
           </List>
         </div>
       </div>
-      <p className="text-xl max-sm:text-[15px] max-[500px]:text-[13px] max-md:w-[95%] mx-auto leading-loose pt-3 text-justify indent-9">
+      <p className="text-xl max-lg:text-[18px] max-sm:text-[15px] max-[500px]:text-[15px] max-md:w-[95%] mx-auto leading-loose pt-3 text-justify indent-9">
         {t("SERVICE_PAGE.BENEFITS.desc_2")}
       </p>
     </div>

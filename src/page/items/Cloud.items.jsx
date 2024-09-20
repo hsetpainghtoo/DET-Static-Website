@@ -23,7 +23,7 @@ const CloudItems = () => {
             className="w-[70%] max-lg:w-[60%] max-md:w-[20rem] max-[570px]:w-[19rem] max-[500px]:w-[17rem] max-[430px]:w-[16rem] absolute bottom-0 right-0 max-[570px]:bottom-10"
           />
         </div>
-        <div className="text-xl max-sm:text-[13px] text-justify leading-loose indent-9 w-full">
+        <div className="text-xl max-sm:text-[15px] text-justify leading-loose indent-9 w-full">
           <p>{t("ITEMS.PAGE.CLOUD.desc_1")}</p>
           <p>{t("ITEMS.PAGE.CLOUD.desc_2")}</p>
         </div>

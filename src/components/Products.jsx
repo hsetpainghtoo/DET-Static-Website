@@ -23,7 +23,7 @@ const Products = () => {
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className="w-full px-[21rem] max-2xl:px-[11rem] max-xl:px-[19rem] max-lg:px-[10rem] max-[990px]:px-[13rem] max-[810px]:px-[9rem] max-md:px-[12rem] max-sm:px-[9rem] max-[580px]:px-[7rem] max-[540px]:px-[6rem] max-[510px]:px-[2rem] max-[380px]:px-[0.7rem] py-8 hover:scale-105 duration-300"
+        className="w-full px-[21rem] max-2xl:px-[11rem] max-xl:px-[19rem] max-lg:px-[10rem] max-[990px]:px-[13rem] max-[810px]:px-[9rem] max-md:px-[12rem] max-sm:px-[9rem] max-[580px]:px-[7rem] max-[540px]:px-[6rem] max-[510px]:px-[2rem] max-[400px]:px-[1.5rem] py-8 hover:scale-105 duration-300"
       >
         <SwiperSlide>
           <div className="pt-8 h-3/5 w-[320px] px-5 pb-4 bg-[#19072B20] backdrop-blur-lg shadow-xl rounded-xl">
