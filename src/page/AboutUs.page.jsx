@@ -35,12 +35,12 @@ const AboutUsPage = () => {
       <Header/>
 
       {/* Journey Section */}
-      <section className="mb-10 max-lg:mb-20 max-md:mb-16">
+      <section className="mb-10">
         <Journey />
       </section>
 
       {/* Milestones Section */}
-      <section className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20 mt-36 max-md:mt-28 max-sm:mt-20">
+      <section className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20 mt-36 max-md:mt-1">
         <img
           src={milestones}
           className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"

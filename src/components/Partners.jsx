@@ -17,7 +17,7 @@ const Partners = () => {
   const { t, i18n } = useTranslation();
   return (
     <>
-      <h1 className="text-3xl text-[#2F4F4F] font-bold mb-9 mt-6">
+      <h1 className="text-3xl max-[500px]:text-[27px] text-[#2F4F4F] font-bold mb-9 mt-20">
         {t("PARTNERS.CLIENTS")}
       </h1>
       <Swiper

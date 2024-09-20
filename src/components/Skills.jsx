@@ -15,7 +15,7 @@ const Skills = () => {
           // src="https://www.svgrepo.com/show/233800/light-bulb-idea.svg"
           src={Innovation}
         />
-        <p className="font-semibold h-full flex items-end justify-center text-2xl overflow-hidden py-8">
+        <p className="font-semibold h-full flex items-end justify-center text-2xl max-[400px]:text-[17px] overflow-hidden py-8">
           {t("SKILLS.INNO")}
         </p>
       </div>
@@ -25,7 +25,7 @@ const Skills = () => {
           className="absolute h-full w-full px-2 "
           src={Designing}
         />
-        <p className="font-semibold h-full flex items-end justify-center text-2xl overflow-hidden py-8">
+        <p className="font-semibold h-full flex items-end justify-center text-2xl max-[400px]:text-[17px] overflow-hidden py-8">
           {t("SKILLS.DESIGN")}
         </p>
       </div>
@@ -35,7 +35,7 @@ const Skills = () => {
           className="absolute h-full w-full px-3"
           src={Developing}
         />
-        <p className="font-semibold h-full flex items-end justify-center text-2xl overflow-hidden py-8">
+        <p className="font-semibold h-full flex items-end justify-center text-2xl max-[400px]:text-[17px] overflow-hidden py-8">
           {t("SKILLS.DEV")}
         </p>
       </div>
@@ -45,7 +45,7 @@ const Skills = () => {
           className="absolute h-full w-full "
           src={Verified}
         />
-        <p className="font-semibold h-full flex items-end justify-center text-2xl overflow-hidden py-8">
+        <p className="font-semibold h-full flex items-end justify-center text-2xl max-[400px]:text-[17px] overflow-hidden py-8">
           {t("SKILLS.TEST")}
         </p>
       </div>

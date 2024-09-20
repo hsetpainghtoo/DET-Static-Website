@@ -6,7 +6,7 @@ const ControllerItems = () => {
   const { t, i18n } = useTranslation();
   return (
     <div className="pt-14 w-[85%] mx-auto">
-      <h1 className="text-center text-4xl max-md:text-[32px] font-bold mb-10">
+      <h1 className="text-center text-4xl max-md:text-[32px] max-[500px]:text-[23px] font-bold mb-10">
         {t("ITEMS.PAGE.CONTROLLER.title")}
       </h1>
 
@@ -15,7 +15,7 @@ const ControllerItems = () => {
           src={Controller}
           className=" lg:hidden  h-full max-lg:w-[70%] max-sm:w-full "
         />
-        <div className="text-xl max-sm:text-[16px] leading-loose text-justify indent-9">
+        <div className="text-xl max-sm:text-[13px] leading-loose text-justify indent-9">
           <p>{t("ITEMS.PAGE.CONTROLLER.desc_1")}</p>
           <p>{t("ITEMS.PAGE.CONTROLLER.desc_2")}</p>
         </div>

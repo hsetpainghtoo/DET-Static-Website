@@ -6,11 +6,11 @@ const MilestonesAbout = () => {
   const { t, i18n } = useTranslation();
   return (
     <>
-      <h1 className="text-3xl max-md:text-[28px] max-sm:text-3xl text-[#2F4F4F] font-bold text-center pt-6 pb-5">
+      <h1 className="text-3xl max-md:text-[28px] max-[500px]:text-[23px] text-[#2F4F4F] font-bold text-center pt-6 pb-5">
         {t("ABOUT.PAGE.MILESTONES.title")}
       </h1>
 
-      <p className="pb-5 indent-5 text-xl max-md:text-lg leading-loose text-justify text-[#2F4F4F]">
+      <p className="pb-5 indent-5 text-xl max-md:text-lg max-[500px]:text-[15px] leading-loose text-justify text-[#2F4F4F]">
         {t("ABOUT.PAGE.MILESTONES.desc_1")}
       </p>
 
@@ -19,7 +19,7 @@ const MilestonesAbout = () => {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time>January 2020</Timeline.Time>
-            <Timeline.Title className="text-xl pb-1 text-[#2F4F4F]">
+            <Timeline.Title className="text-xl  pb-1 text-[#2F4F4F]">
               Laser Security Alert System
             </Timeline.Title>
             <Timeline.Body className="text-[17px] max-sm:text-[15px]  indent-4 text-justify text-[#2F4F4F]">
@@ -33,7 +33,7 @@ const MilestonesAbout = () => {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time>During the COVID-19 Pandemic</Timeline.Time>
-            <Timeline.Title className="text-xl pb-1 text-[#2F4F4F]">
+            <Timeline.Title className="text-xl  pb-1 text-[#2F4F4F]">
               Automatic Hand Wash System
             </Timeline.Title>
             <Timeline.Body className="text-[17px] max-sm:text-[15px] indent-4 text-justify text-[#2F4F4F]">
@@ -46,7 +46,7 @@ const MilestonesAbout = () => {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time>January 2022</Timeline.Time>
-            <Timeline.Title className="text-xl pb-1 text-[#2F4F4F]">
+            <Timeline.Title className="text-xl  pb-1 text-[#2F4F4F]">
               Smart Water Controller Project
             </Timeline.Title>
             <Timeline.Body className="text-[17px] max-sm:text-[15px] indent-4 text-justify text-[#2F4F4F]">
@@ -59,7 +59,7 @@ const MilestonesAbout = () => {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time>August 2022</Timeline.Time>
-            <Timeline.Title className="text-xl pb-1 text-[#2F4F4F]">
+            <Timeline.Title className="text-xl  pb-1 text-[#2F4F4F]">
               Smart Room Controller Project
             </Timeline.Title>
             <Timeline.Body className="text-[17px] max-sm:text-[15px] indent-4 text-justify  text-[#2F4F4F]">

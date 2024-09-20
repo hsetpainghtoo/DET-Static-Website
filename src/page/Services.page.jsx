@@ -46,7 +46,7 @@ const ServicesPage = () => {
       <Header/>
 
       {/* ServiceIntro Section */}
-      <section className="max-2xl:mb-48 max-md:mb-20 max-sm:mb-20">
+      <section className="max-2xl:mb-48 max-md:mb-20 max-sm:mb-10">
         <Intro />
       </section>
 

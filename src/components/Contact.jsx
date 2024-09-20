@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <>
       <div className="w-full text-center">
-        <h1 className="text-4xl max-sm:text-3xl text-[#2F4F4F] font-bold mt-14 mb-4">
+        <h1 className="text-4xl max-sm:text-3xl max-[500px]:text-[28px] text-[#2F4F4F] font-bold mt-14 mb-4">
           {t('CONTACT.TITLE')}
         </h1>
       </div>
@@ -38,7 +38,7 @@ const Contact = () => {
               <form action="https://formsubmit.co/hsetpainghtoo218@gmail.com" method="POST" className="flex flex-col gap-2">
                 <div className="grid grid-cols-2 gap-2 ">
                   <TextInput
-                    className="col-span-1"
+                    className="col-span-1 "
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleChanges}
@@ -47,7 +47,7 @@ const Contact = () => {
                     required
                   />
                   <TextInput
-                    className="col-span-1"
+                    className="col-span-1 "
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChanges}
@@ -109,8 +109,8 @@ const Contact = () => {
             </div>
 
             <div className="w-[70%] max-lg:w-[95%] max-md:w-full max-lg:mx-auto  text-white bg-[#003366] backdrop-blur-lg shadow-2xl rounded-2xl p-6 border border-white">
-              <h2 className="text-3xl font-semibold mb-2">{t('CONTACT.INFO.TITLE')}</h2>
-              <span className="min-[320px]:leading-loose">{t('CONTACT.INFO.SUBTITLE')}</span>
+              <h2 className="text-3xl max-[500px]:text-[28px] font-semibold mb-2">{t('CONTACT.INFO.TITLE')}</h2>
+              <span className="min-[320px]:leading-loose max-[500px]:text-[15px]">{t('CONTACT.INFO.SUBTITLE')}</span>
               <div className="flex-col justify-around">
                 <ol className="mt-8">
                   <li className="flex gap-6">

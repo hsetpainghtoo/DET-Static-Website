@@ -23,7 +23,7 @@ const ATGProduct = () => {
         <Modal.Body className="bg-[#003366] rounded-lg productScrollbar">
           <div className="relative flex justify-center items-center gap-6">
             <img
-              className="w-[52%] max-sm:w-[75%] rounded-xl shadow-xl hover:-translate-y-2 hover:scale-105 duration-200"
+              className="w-[52%] max-sm:w-[80%] rounded-xl shadow-xl hover:-translate-y-2 hover:scale-105 duration-200"
               src={ATG}
             />
             <IoIosCloseCircleOutline
@@ -35,7 +35,7 @@ const ATGProduct = () => {
           <div className="pt-5">
             <div className="flex gap-3 justify-center items-center w-[93%] mx-auto">
               <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden " />
-              <h1 className="text-[31px] max-sm:text-[30px] max-[420px]:text-2xl font-semibold text-white pb-4 text-center">
+              <h1 className="text-[31px] max-sm:text-[30px] max-[500px]:text-[22px] font-semibold text-white pb-4 text-center">
                 Automatic Tank Gauge System (ATG)
               </h1>
               <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />

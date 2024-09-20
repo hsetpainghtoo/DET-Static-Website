@@ -52,11 +52,11 @@ const HomePage = () => {
           <Skills />
           {/* <img src={img"} alt="test"/> */}
 
-          <div className="w-[40%] max-lg:w-[70%] text-center space-y-4 max-lg:mt-5">
-            <h1 className="font-bold  text-[45px] max-xl:text-4xl text-[#2F4F4F] font-sans">
+          <div className="w-[40%] max-lg:w-[90%] text-center space-y-4 max-lg:mt-5">
+            <h1 className="font-bold  text-[45px] max-xl:text-4xl max-[500px]:text-[29px] text-[#2F4F4F] font-sans">
               {t("HOME.TITLE_2")}
             </h1>
-            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg max-[500px]:text-[12px] font-sans text-[#2F4F4F]">
               {t("HOME.DESCRIPTION.SKILLS")}
             </p>
           </div>
@@ -84,10 +84,10 @@ const HomePage = () => {
           <Services />
 
           <div className="w-3/4 max-xl:w-full max-xl:block text-center space-y-4 xl:hidden">
-            <h1 className="font-bold text-[#2F4F4F] text-[40px] font-sans">
+            <h1 className="font-bold text-[#2F4F4F] text-[40px] max-[500px]:text-[29px] font-sans">
               {t("HOME.TITLE_1")}
             </h1>
-            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg text-[#2F4F4F] font-sans">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg max-[500px]:text-[12px] text-[#2F4F4F] font-sans">
               {t("SERVICE.DESC")}
             </p>
             <Link to="/services">
@@ -101,16 +101,16 @@ const HomePage = () => {
         {/* Products Section */}
         <section
           id="product"
-          className="scroll-mt-32 w-[90%] flex max-xl:flex-col gap-5 justify-center items-center  my-10 mx-auto"
+          className="scroll-mt-32 w-[90%] flex max-xl:flex-col gap-5 justify-center items-center  my-10 mx-auto "
         >
           <div className=" w-[51%] max-xl:w-[80%] max-lg:w-[80%] max-md:w-full max-sm:w-full">
             <Products />
           </div>
           <div className="w-[50%] max-lg:w-full max-xl:w-full text-center space-y-4">
-            <h1 className="font-bold text-[40px] text-[#2F4F4F] font-sans">
+            <h1 className="font-bold text-[40px] max-[500px]:text-[29px] text-[#2F4F4F] font-sans">
               {t("PRODUCT.TITLE")}
             </h1>
-            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg font-sans text-[#2F4F4F]">
+            <p className="text-xl min-[320px]:leading-loose max-lg:text-lg max-[500px]:text-[12px] font-sans text-[#2F4F4F]">
               {t("PRODUCT.DESC")}
             </p>
             <Link to="/items">
@@ -122,7 +122,7 @@ const HomePage = () => {
         </section>
 
         {/* Partners Section */}
-        <section className="w-[100%] text-center text-black ">
+        <section className="w-[100%] text-center text-black">
           <Partners />
         </section>
 

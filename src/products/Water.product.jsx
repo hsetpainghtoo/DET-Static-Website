@@ -36,7 +36,7 @@ const WaterProduct = () => {
           <div className="pt-5">
             <div className="flex gap-3 justify-center items-center w-[93%] mx-auto">
               <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />
-              <h1 className="text-[31px] max-[420px]:text-[30px] pb-4 w-[80%] max-[500px]:w-full font-semibold text-white text-center">
+              <h1 className="text-[31px] max-[500px]:text-[22px] pb-4 w-[80%] max-[500px]:w-full font-semibold text-white text-center">
                 Smart Water Controller
               </h1>
               <HR.Trimmed className="bg-white rounded-lg max-[500px]:hidden" />
