@@ -27,7 +27,7 @@ const PartnersItems = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="my-5 mt-48 max-lg:mt-[8rem] max-sm:mt-20"
+        className="my-5 mt-44 max-xl:mt-56 max-lg:mt-[8rem] max-sm:mt-20"
       >
         <SwiperSlide>
           <div className=" w-full max-sm:mt-2">

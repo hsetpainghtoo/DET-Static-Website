@@ -17,18 +17,18 @@ const IntroItems = () => {
       />
 
       <div className=" h-[300px] my-auto duration-300 text-[#2F4F4F] w-[50%] max-lg:w-[90%] p-8">
-        <h1 className="text-5xl max-xl:text-[40px] max-lg:text-[46px] max-md:text-[38px]  leading-tight font-bold mb-7 ">
+        <h1 className="text-5xl max-xl:text-[38px] max-lg:text-[46px] max-md:text-[30px]  leading-normal font-bold mb-7 ">
           {/* Your Dream Starts With <br /> Our IoT Products */}
           {t('ITEMS.TITLE')}
         </h1>
-        <p className="text-xl max-sm:text-[15px] leading-loose text-justify">
+        <p className="text-xl max-sm:text-[15px] leading-10 max-sm:leading-loose text-justify">
           {t('ITEMS.DESC')}
         </p>
       </div>
 
       <img
         src={tech_company}
-        className="w-[30%] max-lg:w-[40%] max-[800px]:w-[50%] max-sm:w-[60%] max-[450px]:w-[70%] lg:hidden pt-20 max-sm:pt-6 max-[550px]:pt-32 max-[420px]:mt-20 z-10 pb-20 max-lg:pb-0 max-sm:pb-10"
+        className="w-[30%] max-lg:w-[40%] max-[800px]:w-[50%] max-sm:w-[60%] max-[450px]:w-[70%] lg:hidden pt-20 max-sm:pt-6 max-[550px]:mt-20 max-[400px]:mt-36 max-[370px]:mt-44 z-10 pb-20 max-lg:pb-0 max-sm:pb-10"
       />
       <img
         src={shape}

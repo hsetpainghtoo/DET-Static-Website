@@ -45,7 +45,7 @@ const ItemsPage = () => {
       </section>
 
       {/* Partners Section */}
-      <section>
+      <section >
         <ItemsPartners />
       </section>
 
