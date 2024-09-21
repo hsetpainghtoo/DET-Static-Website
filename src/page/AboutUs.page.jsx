@@ -40,48 +40,48 @@ const AboutUsPage = () => {
       </section>
 
       {/* Milestones Section */}
-      <section className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20 mt-32 max-lg:mt-20 max-md:mt-10">
+      <section className="w-[90%] flex max-lg:flex-col gap-20 mx-auto mb-20 mt-32 max-lg:mt-20 max-md:mt-10">
         <img
           src={milestones}
-          className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:hidden hover:-translate-y-2 duration-200"
         />
 
-        <div className="w-[50%] max-md:w-[90%] mx-auto text-[#2F4F4F] px-8 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 duration-200">
+        <div className="w-[50%] max-lg:w-[90%] mx-auto text-[#2F4F4F] px-8 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 duration-200">
           <Milestones />
         </div>
 
         <img
           src={milestones}
-          className="w-[60%] mx-auto md:hidden hover:-translate-y-2 duration-200"
+          className="w-[60%] mx-auto lg:hidden hover:-translate-y-2 duration-200"
         />
       </section>
 
       {/* Mission Section */}
-      <section id="mission" className="w-[90%] flex max-md:flex-col gap-20 mx-auto mb-20">
-        <div className="w-[50%] max-md:w-[90%] mx-auto">
+      <section id="mission" className="w-[90%] flex max-lg:flex-col gap-20 mx-auto mb-20">
+        <div className="w-[50%] max-lg:w-[90%] mx-auto">
           <Missions />
         </div>
 
         <img
           src={missions}
-          className="w-[40%] max-md:w-[60%] mx-auto hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:w-[60%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
 
       {/* Priorities Section */}
-      <section className="w-[90%] flex max-md:flex-col justify-center items-center gap-20 mx-auto">
+      <section className="w-[90%] flex max-lg:flex-col justify-center items-center gap-20 mx-auto">
         <img
           src={values}
-          className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:hidden hover:-translate-y-2 duration-200"
         />
 
-        <div className="w-[50%] max-md:w-[90%]">
+        <div className="w-[50%] max-lg:w-[90%]">
           <Priorities />
         </div>
 
         <img
           src={values}
-          className="w-[70%] mx-auto md:hidden hover:-translate-y-2 duration-200"
+          className="w-[70%] mx-auto lg:hidden hover:-translate-y-2 duration-200"
         />
       </section>
 

@@ -7,7 +7,7 @@ const Intro = () => {
   const {t,i18n} = useTranslation();
   return (
     <>
-      <h1 className="text-6xl  font-bold  font-sans text-[#2F4F4F] max-md:hidden">
+      <h1 className="text-6xl  font-bold  font-sans text-[#2F4F4F] max-sm:hidden">
         <span className="absolute  w-0 hover:w-[425px] hover:text-white hover:bg-yellow-300 duration-300 rounded-ss-2xl rounded-ee-2xl px-2">
           INNOVATION
         </span>{" "}
@@ -21,7 +21,7 @@ const Intro = () => {
         </span>{" "}
         <br />
       </h1>
-      <h1 className="text-6xl  max-md:text-[42px] mx-auto pb-8 max-[400px]:pb-3  font-bold  font-sans text-[#2F4F4F] md:hidden">
+      <h1 className="text-6xl  max-sm:text-[42px] mx-auto pb-8 max-[400px]:pb-3  font-bold  font-sans text-[#2F4F4F] sm:hidden">
         <span className="hover:text-white hover:bg-yellow-300 duration-300 absolute w-0 hover:w-[294px]  rounded-ss-2xl rounded-ee-2xl px-1  ">
           INNOVATION
         </span>{" "}

@@ -35,7 +35,7 @@ const JourneyAbout = () => {
       />
       <img
         src={shape}
-        className="max-sm:hidden lg:hidden max-lg:-bottom-28 absolute  animate-[linear_bounceY_infinite_10s] w-[600px] max-md:w-[500px] max-sm:w-[400px]"
+        className="max-sm:hidden lg:hidden max-lg:top-[30rem] max-md:-bottom-8 absolute animate-[linear_bounceY_infinite_10s] w-[600px] max-md:w-[500px] max-sm:w-[400px]"
       />
     </div>
   );

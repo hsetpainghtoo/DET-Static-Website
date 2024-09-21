@@ -46,55 +46,55 @@ const ServicesPage = () => {
       <Header/>
 
       {/* ServiceIntro Section */}
-      <section className="max-2xl:mb-48 max-md:mb-20 max-sm:mb-10">
+      <section className="max-2xl:mb-48 max-lg:mb-20 max-sm:mb-10">
         <Intro />
       </section>
 
       {/* Consulting Section */}
-      <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-0 mx-auto mb-24">
+      <section className="w-[90%] flex max-lg:flex-col gap-20 max-lg:gap-0 mx-auto mb-24">
         <img
           src={consulting}
-          className="w-[40%] max-md:hidden mx-auto hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:hidden mx-auto hover:-translate-y-2 duration-200"
         />
-        <div className="w-[50%] max-md:w-[95%] mx-auto">
+        <div className="w-[50%] max-lg:w-[95%] mx-auto">
           <Consult />
         </div>
         <img
           src={consulting}
-          className="w-[40%] md:hidden max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
+          className="w-[40%] lg:hidden max-lg:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
 
       {/* Data Section */}
-      <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-9 mx-auto mb-20">
-        <div className="w-[50%]  max-md:w-[85%] mx-auto">
+      <section className="w-[90%] flex max-lg:flex-col gap-20 max-lg:gap-9 mx-auto mb-20">
+        <div className="w-[50%]  max-lg:w-[85%] mx-auto">
           <Data />
         </div>
         <img
           src={data}
-          className="w-[40%] max-md:w-[70%] mx-auto hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:w-[70%] mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
 
       {/* Strategy Section */}
-      <section className="w-[90%] flex max-md:flex-col gap-20 max-md:gap-9 mx-auto mb-20">
+      <section className="w-[90%] flex max-lg:flex-col gap-20 max-lg:gap-9 mx-auto mb-20">
         <img
           src={strategy}
-          className="w-[40%] max-md:hidden hover:-translate-y-2 duration-200"
+          className="w-[40%] max-lg:hidden hover:-translate-y-2 duration-200"
         />
 
-        <div className="w-[50%]  max-md:w-[85%] mx-auto">
+        <div className="w-[50%]  max-lg:w-[85%] mx-auto">
           <Strategy />
         </div>
 
         <img
           src={strategy}
-          className="w-[70%] md:hidden mx-auto hover:-translate-y-2 duration-200"
+          className="w-[70%] lg:hidden mx-auto hover:-translate-y-2 duration-200"
         />
       </section>
 
       {/* OtherService Section */}
-      <section className="w-[80%] max-md:w-[90%] mx-auto mb-28">
+      <section className="w-[80%] max-lg:w-[90%] mx-auto mb-28">
         <OtherServices />
       </section>
 

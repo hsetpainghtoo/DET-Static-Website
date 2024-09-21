@@ -12,17 +12,17 @@ const BenefitsService = () => {
       </h1>
       <div className="flex justify-center items-center mb-8">
         <HR.Trimmed className="bg-[#003366] max-md:hidden" />
-        <h1 className="text-center text-4xl font-bold max-md:hidden">
+        <h1 className="text-center text-4xl leading-relaxed font-bold max-md:hidden">
           {t("SERVICE_PAGE.BENEFITS.subtitle")}
         </h1>
         <HR.Trimmed className="bg-[#003366] max-md:hidden" />
       </div>
-      <div className="flex max-md:flex-col gap-4">
+      <div className="flex max-lg:flex-col gap-4">
         <img
           src={benefits}
-          className="w-[50%] max-md:w-[80%] mx-auto hover:-translate-y-2 duration-200"
+          className="w-[50%] max-lg:w-[80%] mx-auto hover:-translate-y-2 duration-200"
         />
-        <div className="text-xl max-lg:text-[18px] max-sm:text-[15px] max-[500px]:text-[15px] w-[50%] max-md:w-[95%] mx-auto xl:text-xl">
+        <div className="text-xl max-lg:text-[18px] max-sm:text-[15px] max-[500px]:text-[15px] w-[50%] max-lg:w-[95%] mx-auto xl:text-xl">
           <p className="indent-11 text-justify leading-loose">
             {t("SERVICE_PAGE.BENEFITS.desc_1")}
           </p>
